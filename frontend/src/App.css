@@ -1,0 +1,382 @@
+.App {
+  font-size: 1.2rem;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+
+/*NAVBAR: DESKTOP ------------------------------------------------------------------*/
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+li {
+  font-size: 2rem;
+}
+
+.navBar {
+  /* background-image: linear-gradient(#16283c, #d8ebf6) ; */
+  background: #252c35;
+  /* box-shadow: 0, 10px, 0, 0 #92999a; */
+  color: #f5fafa;
+  padding: .5rem;
+  position: relative;
+  margin: auto; 
+
+}
+
+/* .navBar:before{
+  content: "";
+  position: absolute;
+  width: 94vw; 
+  bottom: 1rem;
+  right: 1rem;
+  background-color: #92999a;
+  z-index: -1;
+}
+
+.navBar:after{
+  content: "";
+  position: absolute;
+  width: 94vw; 
+  top: 1rem;
+  left: 1rem;
+  background-color: #92999a;
+  z-index: -1;
+} */
+
+
+.navBar button {
+  background: transparent;
+  border: 2px solid #f5fafa;
+  color: #f5fafa;
+  padding: 0.5rem 0.5rem;
+
+}
+
+.navBar button:hover {
+  background: #f5fafa;
+  color: #252c35;
+  cursor: pointer;
+}
+
+.brand {
+  cursor: pointer;
+  font-size: 2rem;
+  padding-left: 2rem;
+}
+
+.nav{
+  color :#f5fafa; 
+}
+
+
+
+
+
+/*HOME: DESKTOP ------------------------------------------------------------------*/
+
+@media only screen and (min-width: 1200px){
+
+  
+  .home-bg{
+
+    background-image: url("../vanilla_website_materials/images/untwined_stretched1.png");
+    background-size: cover;
+    height: calc(100vh - 5rem);
+    width: 100vw; 
+  }
+
+
+  .container1{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+    height: calc(100vh - 5rem);
+    width: 100%; 
+    padding-left: 12rem;
+  }
+
+  .name{
+      font-size: 8rem;
+  }
+
+  .title{    
+      font-size: 6rem;
+  }
+
+  .h3{
+      font-size: 2rem;
+  }
+
+  .name-and-title{
+    display: flex; 
+    padding-top: 6rem;
+    flex-direction: column;
+    height: 20rem;
+    justify-content: center;
+  }
+
+  .quote{ 
+    display: flex; 
+    flex-wrap: wrap;
+    width: 40vw;
+    align-self: flex-start;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+  }
+
+}
+
+/*HOME: Mobile ------------------------------------------------------------------*/
+
+@media only screen and (max-width: 1200px){
+
+  
+  .home-bg{
+    display: flex; 
+    justify-content: center;
+    background-image: url("../vanilla_website_materials/images/untwined_stretched1.png");
+    background-size: cover;
+
+  }
+
+
+  .container1{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+    height: 100vh; 
+    width: 100%; 
+    padding-left: 4rem;
+  }
+
+  .name{
+      font-size: 3rem;
+  }
+
+  .title{    
+      font-size: 2rem;
+  }
+
+  .h3{
+      font-size: 1rem;
+  }
+
+  .name-and-title{
+    display: flex; 
+    flex-direction: column;
+    height: 20rem;
+    justify-content: center;
+  }
+
+  .quote{ 
+    display: flex; 
+    flex-wrap: wrap;
+    width: 40vw;
+    align-self: flex-start;
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+  }
+
+}
+
+
+/* from vanilla mock-up ----------------------------------------------------------------------*/
+
+
+p{
+    font-size: .8rem;
+    text-align: left;
+}
+
+
+
+
+
+.about-me-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75%;
+    width: 75%;
+    margin-bottom: 10vw;
+    padding-top: 10vw; 
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-bottom: 10vw; 
+    margin-bottom: 10vw;
+    gap: 5vw;
+}
+
+.about-me-column{
+    display: flex;
+    padding-top: 3vh;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.about-me-label{
+    display: flex;
+    padding-top: 3vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.about-me-text{
+    display: flex;
+    align-items: center;    
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-me-image{
+    display: flex;
+    padding-top: 10%; 
+    align-items: center;
+    max-width: 30vw; 
+    max-height: auto;
+    justify-content: center;
+}
+
+
+
+.projects{
+    width: 50vw;
+    justify-content: left;
+    margin-left: 22%;
+}
+
+.project1-container{
+    position: relative;
+    margin-bottom: 100vh;
+}
+
+.box{
+    position: absolute;
+    border: .1vw solid #191E32;
+    height: 70vh;
+    width: 65vw;   
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+    margin-left: 5vw;
+    z-index: 0;
+}
+
+.box1{
+    position: absolute;
+    border: .1vw solid #191E32;
+    height: 70vh;
+    width: 65vw;
+    margin-top: 25vh;
+    margin-bottom: 10vh;
+    margin-left: 25vw;
+    z-index: 1;
+}
+
+.box-content{
+    position: absolute;
+    border: .1vw solid #191E32;
+    height: 45vh;
+    width: 25vw;
+    left: 48.5%;
+    -ms-transform: translate(-50%);
+    transform: translate(-50%);
+    z-index: 2;
+    margin-top: 30vh;
+    margin-bottom: 30vh;
+    padding: 1vw;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vw;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+.projects-2-3-container{
+    display: flex;
+    width: 100%;
+    height: 100%;    
+    margin-top: vh;
+    margin-bottom: 50vh;
+}
+
+
+.p2-content{
+    position: absolute;
+    border: .1vw solid #191E32;
+    height: 50vh;
+    width: 30vw;
+    z-index:0;
+    font-size: 2vw;
+    padding: 5vw;
+    margin-top: 30vh;
+    margin-bottom: 30vh;
+    margin-left: 10vw; 
+    overflow: hidden;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    
+}
+
+.p3-content{
+    position: absolute;
+    border: .1vw solid #191E32;
+    height: 50vh;
+    width: 30vw;
+    margin-left: 45vw;
+    z-index:1;
+    margin-top: 35vh;
+    margin-bottom: 30vh;
+    font-size: 2vw;
+    padding: 5vw;
+    overflow: hidden;
+    -ms-transform: translateY(-50% + 5vh);
+    transform: translateY(-50%);
+}
+
+
+
+
+.contact{
+    display: flex;
+    justify-content: center;
+    padding-top: 100vh;
+    margin-top: 30vh;
+}
+
+.email{
+    
+    display: flex;
+    text-align: left;
+    height: 5vh;
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh;
+    border: .1vw solid #191E32;
+}
+
+.message{
+    
+    display: flex;
+    text-align: left;
+    height: 15vh;
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    border: .1vw solid #191E32;
+    margin-bottom: 50vh;
+}

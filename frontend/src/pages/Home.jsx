@@ -8,9 +8,9 @@ export default function Home({}) {
             <div className = "name">Emily Delbridge</div>
             <div className = "title">Software Developer</div>
           </div>
-          <div className = "quote">
+          {/* <div className = "quote">
             Any sufficiently advanced technology is indistinguishable from magic. --Arthur C. Clarke
-        </div>
+        </div> */}
         </div>
 
     </div>

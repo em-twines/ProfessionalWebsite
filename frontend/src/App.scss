@@ -1,4 +1,6 @@
 
+//particles---------------------------------------------------------------
+
 @function randomNum($min, $max) {
     $rand: random();
     $randomNum: $min + floor($rand * (($max - $min) + 1));
@@ -41,7 +43,7 @@ $z-index: (
 }
 
 
-
+//main css ------------------------------------------------------------------------------------------
 
 
 .App {
@@ -52,13 +54,13 @@ $z-index: (
   
   
   a:hover { 
-    text-shadow: 0 0 3px white; 
+    text-shadow: 0 0 5px white; 
     color: #92999a
   }
   
+
   
-  
-  /*buttons*/
+  /*buttons -----------------------------------------------------------------------------------------*/
   
   .from-center:before {
       top: 0;
@@ -88,91 +90,287 @@ $z-index: (
       height: 100%;
   }
   
+
+
   /*NAVBAR: DESKTOP ------------------------------------------------------------------*/
   
-  ul {
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
+  @media only screen and (min-width: 1500px){
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+    }
+    
+    li {
+        font-size: 3rem;
+    }
+    
+    /* .navBar {
+        background: #252c35;
+        color: #f5fafa;
+        padding: 2rem;
+        margin: auto; 
+    } */
+    
+    // .navBar button {
+    //     background: transparent;
+    //     border: 2px solid #f5fafa;
+    //     color: #f5fafa;
+    //     padding: 0.5rem 0.5rem;
+    
+    // }
+    
+    // .navBar button:hover {
+    //     background: #f5fafa;
+    //     color: #252c35;
+    //     cursor: pointer;
+    // }
+    
+    .navFlex{
+        display: flex; 
+        justify-content: space-between;
+        flex-shrink: 1;
+        background: #252c35;
+        color: #f5fafa;
+        padding: 2rem;
+        margin: auto; 
+    }
+    
+    .nav-flex-jr{
+        display: flex; 
+        justify-content: space-around;
+        flex-shrink: 1;
+    
+    }
+    
+    .brand {
+        cursor: pointer;
+        font-size: 3rem;
+        padding-left: 2rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    
+    .projects-nav-link{
+        cursor: pointer;
+        font-size: 3rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    
+    .about{
+        cursor: pointer;
+        font-size: 3rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    
+    .contact-nav-link{
+        cursor: pointer;
+        font-size: 3rem;
+        padding-right: 2rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    
+    .drop-down{
+        display:none;
+    }
   }
   
-  li {
-    font-size: 3rem;
+  
+  /*NAVBAR: TABLET ------------------------------------------------------------------*/
+  
+  @media only screen and (max-width: 1500px){
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+    }
+    
+    li {
+        font-size: 3rem;
+    }
+    
+    
+    .navFlex{
+        display: flex; 
+        justify-content: space-between;
+        flex-shrink: 1;
+        background: #252c35;
+        color: #f5fafa;
+        padding: 1rem;
+        margin: auto; 
+    }
+    
+    .nav-flex-jr{
+        display: flex; 
+        justify-content: space-around;
+        flex-shrink: 2;
+    
+    }
+    
+    .brand {
+        cursor: pointer;
+        font-size: 2rem;
+        padding-left: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    
+    .projects-nav-link{
+        cursor: pointer;
+        font-size: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    
+    .about{
+        cursor: pointer;
+        font-size: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    
+    .contact-nav-link{
+        cursor: pointer;
+        font-size: 2rem;
+        padding-right: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    
+    .drop-down{
+        display: none;
+    }
+
   }
   
-  /* .navBar {
-    background: #252c35;
-    color: #f5fafa;
-    padding: 2rem;
-    margin: auto; 
-  } */
+
+
+    
+  /*NAVBAR: MOBILE LARGE------------------------------------------------------------------*/
   
-  .navBar button {
-    background: transparent;
-    border: 2px solid #f5fafa;
-    color: #f5fafa;
-    padding: 0.5rem 0.5rem;
-  
+  @media only screen and (max-width: 1000px){
+
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+    }
+    
+    li {
+        font-size: 3rem;
+    }
+    
+    
+    .navFlex{
+        display: flex; 
+        justify-content: space-between;
+        flex-shrink: 1;
+        background: #252c35;
+        color: #f5fafa;
+        padding: 1rem;
+        margin: auto; 
+    }
+    
+    .nav-flex-jr{
+        display: flex; 
+        justify-content: space-around;
+        flex-shrink: 2;
+    
+    }
+    
+    .brand {
+        cursor: pointer;
+        font-size: 2rem;
+        padding-left: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    
+    .projects-nav-link{
+        cursor: pointer;
+        font-size: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    
+    .about{
+        cursor: pointer;
+        font-size: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    
+    .contact-nav-link{
+        cursor: pointer;
+        font-size: 2rem;
+        padding-right: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+
+    .drop-down{
+        display: none;
+    }
+
   }
   
-  .navBar button:hover {
-    background: #f5fafa;
-    color: #252c35;
-    cursor: pointer;
+
+ 
+  /*NAVBAR: MOBILE SMALL------------------------------------------------------------------*/
+  
+  @media only screen and (max-width: 700){
+
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+    }
+    
+    li {
+        font-size: 3rem;
+    }
+    
+    
+    .navFlex{
+        display: flex; 
+        justify-content: space-between;
+        flex-shrink: 1;
+        background: #252c35;
+        color: #f5fafa;
+        padding: 1rem;
+        margin: auto; 
+    }
+    
+    .nav-flex-jr{
+        display: flex; 
+        justify-content: space-around;
+        flex-shrink: 2;
+    
+    }
+
+    .drop-down{
+        font-size: 1rem;
+    }
+    
+    .brand {
+        cursor: pointer;
+        font-size: 2rem;
+        padding-left: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    
+
   }
-  
-  .navFlex{
-    display: flex; 
-    justify-content: space-between;
-    flex-shrink: 1;
-    background: #252c35;
-    color: #f5fafa;
-    padding: 2rem;
-    margin: auto; 
-  }
-  
-  .nav-flex-jr{
-    display: flex; 
-    justify-content: space-around;
-    flex-shrink: 1;
-  
-  }
-  
-  .brand {
-    cursor: pointer;
-    font-size: 3rem;
-    padding-left: 2rem;
-    padding-left: 4rem;
-    padding-right: 4rem;
-  }
-  
-  .projects-nav-link{
-    cursor: pointer;
-    font-size: 3rem;
-    padding-left: 4rem;
-    padding-right: 4rem;
-  }
-  
-  .about{
-    cursor: pointer;
-    font-size: 3rem;
-    padding-left: 4rem;
-    padding-right: 4rem;
-  }
-  
-  .contact-nav-link{
-    cursor: pointer;
-    font-size: 3rem;
-    padding-right: 2rem;
-    padding-left: 4rem;
-    padding-right: 4rem;
-  }
-  
-  .nav{
-    color :#f5fafa; 
-  }
-  
-  
   
   
   

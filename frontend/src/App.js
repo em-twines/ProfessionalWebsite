@@ -1,14 +1,12 @@
 //import general items
 import { Routes, Route, Navigate } from "react-router-dom";
 import { useEffect, useState } from "react";
-import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.scss';
 
 //import pages
 import Home from './pages/Home';
-import Project1 from './pages/Project1';
-import Project2 from './pages/Project2';
-import Project3 from './pages/Project3';
+import Projects from './pages/Projects';
 import About from './pages/About';
 import Contact from './pages/Contact';
 
@@ -30,11 +28,7 @@ function App() {
           
           <Route path="/" element={<Home/>} />
 
-          <Route path="/project1" element={<Project1/>} />
-
-          <Route path="/project2" element={<Project2/>} />
-
-          <Route path="/project3" element={<Project3 />} />
+          <Route path="/projects" element={<Projects/>} />
 
           <Route path="/about" element={<About/>} />
 

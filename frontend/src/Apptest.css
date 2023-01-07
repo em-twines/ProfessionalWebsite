@@ -1,9 +1,50 @@
+
+
+
+
 .App {
   font-size: 1.2rem;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 
+
+a:hover { 
+  text-shadow: 0 0 3px white; 
+  color: #92999a
+}
+
+
+
+/*buttons*/
+
+.from-center:before {
+	top: 0;
+	left: 50%;
+	height: 100%;
+	width: 0;
+	border: 1px solid var(--inv);
+	border-left: 0;
+	border-right: 0;
+}
+
+.from-center:after {
+	bottom: 0;
+	left: 0;
+	height: 0;
+	width: 100%;
+	background: var(--inv);
+}
+
+.from-center:hover:before {
+	left: 0;
+	width: 100%;
+}
+
+.from-center:hover:after {
+	top: 0;
+	height: 100%;
+}
 
 /*NAVBAR: DESKTOP ------------------------------------------------------------------*/
 
@@ -17,37 +58,12 @@ li {
   font-size: 3rem;
 }
 
-.navBar {
-  /* background-image: linear-gradient(#16283c, #d8ebf6) ; */
+/* .navBar {
   background: #252c35;
-  /* box-shadow: 0, 10px, 0, 0 #92999a; */
   color: #f5fafa;
   padding: 2rem;
-  position: relative;
   margin: auto; 
-
-}
-
-/* .navBar:before{
-  content: "";
-  position: absolute;
-  width: 94vw; 
-  bottom: 1rem;
-  right: 1rem;
-  background-color: #92999a;
-  z-index: -1;
-}
-
-.navBar:after{
-  content: "";
-  position: absolute;
-  width: 94vw; 
-  top: 1rem;
-  left: 1rem;
-  background-color: #92999a;
-  z-index: -1;
 } */
-
 
 .navBar button {
   background: transparent;
@@ -63,10 +79,51 @@ li {
   cursor: pointer;
 }
 
+.navFlex{
+  display: flex; 
+  justify-content: space-between;
+  flex-shrink: 1;
+  background: #252c35;
+  color: #f5fafa;
+  padding: 2rem;
+  margin: auto; 
+}
+
+.nav-flex-jr{
+  display: flex; 
+  justify-content: space-around;
+  flex-shrink: 1;
+
+}
+
 .brand {
   cursor: pointer;
   font-size: 3rem;
   padding-left: 2rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.projects-nav-link{
+  cursor: pointer;
+  font-size: 3rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.about{
+  cursor: pointer;
+  font-size: 3rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.contact-nav-link{
+  cursor: pointer;
+  font-size: 3rem;
+  padding-right: 2rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 
 .nav{
@@ -86,7 +143,7 @@ li {
 
     background-image: url("../vanilla_website_materials/images/untwined_stretched1.png");
     background-size: cover;
-    height: calc(100vh - 9.5rem);
+    height: calc(100vh - 8.5rem);
     width: 100vw; 
   }
 
@@ -95,7 +152,7 @@ li {
     display: flex;
     justify-content:space-between;
     flex-direction: column;
-    height: calc(100vh - 9.5rem);
+    height: calc(100vh - 8.5rem);
     width: 100%; 
     padding-left: 12rem;
   }

@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 
 export default function NavBar() {
   return (
-    <div className="navBar">
       <ul className = 'navFlex'>
         <li className="brand">
           <Link to="/" style={{ textDecoration: "none", color: "white" }}>
@@ -29,6 +28,5 @@ export default function NavBar() {
           </li>
         </div>
       </ul>
-    </div>
   );
 }

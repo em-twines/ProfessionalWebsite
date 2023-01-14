@@ -281,7 +281,7 @@ $z-index: (
     }
     
     li {
-        font-size: 2rem;
+        font-size: 1rem;
     }
     
     /* .navBar {
@@ -305,7 +305,12 @@ $z-index: (
     //     cursor: pointer;
     // }
     
-    .navFlex{
+    #nav-burger{
+      display:none; 
+    }
+
+    #navFlex{
+      display: content; 
         display: flex; 
         justify-content: space-between;
         flex-shrink: 1;
@@ -318,40 +323,41 @@ $z-index: (
         display: flex; 
         justify-content: space-around;
         flex-shrink: 1;
-    
+        padding: .5rem;
+
     }
     
     .brand {
         cursor: pointer;
-        font-size: 2rem;
+        font-size: 1.4rem;
         padding-left: 4rem;
         padding-right: 4rem;
     }
     
     .projects-nav-link{
         cursor: pointer;
-        font-size: 2rem;
+        font-size: 1.4rem;
         padding-left: 4rem;
         padding-right: 4rem;
     }
     
     .about{
         cursor: pointer;
-        font-size: 2rem;
+        font-size: 1.4rem;
         padding-left: 4rem;
         padding-right: 4rem;
     }
     
     .contact-nav-link{
         cursor: pointer;
-        font-size: 2rem;
+        font-size: 1.4rem;
         padding-left: 4rem;
         padding-right: 4rem;
     }
     
-    .drop-down{
-        display:none;
-    }
+    // .drop-down{
+    //     display:none;
+    // }
   }
   
   
@@ -366,11 +372,15 @@ $z-index: (
     }
     
     li {
-        font-size: 2rem;
+        font-size: 1rem;
     }
     
+    #nav-burger{
+      display:none; 
+    }
     
-    .navFlex{
+    #navFlex{      
+
         display: flex; 
         justify-content: space-between;
         flex-shrink: 1;
@@ -415,10 +425,6 @@ $z-index: (
         padding-left: 2rem;
     }
 
-    
-    .drop-down{
-        display: none;
-    }
 
   }
   
@@ -437,11 +443,15 @@ $z-index: (
     }
     
     li {
-        font-size: 2rem;
+        font-size: 1rem;
     }
     
-    
-    .navFlex{
+    #nav-burger{
+      display:none; 
+    }
+
+    #navFlex{
+
         display: flex; 
         justify-content: space-between;
         flex-shrink: 1;
@@ -460,32 +470,30 @@ $z-index: (
     
     .brand {
         cursor: pointer;
-        font-size: 2rem;
+        font-size: 1rem;
         padding-left: 2rem;
-        padding-left: 1rem;
         padding-right: 1rem;
     }
     
     .projects-nav-link{
         cursor: pointer;
-        font-size: 2rem;
+        font-size: 1rem;
         padding-left: 1rem;
         padding-right: 1rem;
     }
     
     .about{
         cursor: pointer;
-        font-size: 2rem;
+        font-size: 1rem;
         padding-left: 1rem;
         padding-right: 1rem;
     }
     
     .contact-nav-link{
         cursor: pointer;
-        font-size: 2rem;
+        font-size: 1rem;
         padding-right: 2rem;
         padding-left: 1rem;
-        padding-right: 1rem;
     }
 
 
@@ -497,9 +505,9 @@ $z-index: (
   
 
  
-  /*NAVBAR: MOBILE SMALL------------------------------------------------------------------*/
+  /*NAVBAR: MOBILE SMALLER------------------------------------------------------------------*/
   
-  @media only screen and (max-width: 700){
+  @media only screen and (max-width: 700px){
 
 
     ul {
@@ -511,16 +519,14 @@ $z-index: (
     li {
         font-size: 3rem;
     }
+
+    #nav-burger{
+      display:contents; 
+    }
     
-    
-    .navFlex{
-        display: flex; 
-        justify-content: space-between;
-        flex-shrink: 1;
-        background: #252c35;
-        color: #f5fafa;
-        padding: 1rem;
-        margin: auto; 
+    #navFlex{
+        display: none; 
+        
     }
     
     .nav-flex-jr{
@@ -530,14 +536,9 @@ $z-index: (
     
     }
 
-    .drop-down{
-        font-size: 1rem;
-    }
-    
     .brand {
         cursor: pointer;
-        font-size: 2rem;
-        padding-left: 2rem;
+        font-size: 1rem;
         padding-left: 1rem;
         padding-right: 1rem;
     }
@@ -545,7 +546,48 @@ $z-index: (
 
   }
   
+    /*NAVBAR: MOBILE SMALLEST------------------------------------------------------------------*/
   
+    @media only screen and (max-width: 400px){
+
+
+      ul {
+        display: none;
+        justify-content: space-between;
+        list-style-type: none;
+      }
+      
+      li {
+        font-size: 1rem;
+        display: none;
+      }
+  
+      #nav-burger{
+        display: contents; 
+
+      }
+      
+      #navFlex{
+        display: none; 
+      }
+      
+      .nav-flex-jr{
+        display: none; 
+        justify-content: space-around;
+        flex-shrink: 2;
+    
+      }
+  
+      .brand {
+        display: none; 
+        cursor: pointer;
+        font-size: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+      }
+      
+  
+    }
   
   /*HOME: DESKTOP ------------------------------------------------------------------*/
   
@@ -556,7 +598,7 @@ $z-index: (
   
       background-image: url("../vanilla_website_materials/images/untwined_stretched1.png");
       background-size: cover;
-      height: calc(100vh - 5rem);
+      height: calc(100vh - 2.5rem);
       width: 100vw; 
     }
   
@@ -565,7 +607,7 @@ $z-index: (
       display: flex;
       justify-content:space-between;
       flex-direction: column;
-      height: calc(100vh - 5rem);
+      height: calc(100vh - 2.5rem);
       width: 100%; 
       padding-left: 4rem;
     }
@@ -606,7 +648,7 @@ $z-index: (
   
   }
   
-  /*HOME: Mobile ------------------------------------------------------------------*/
+  /*HOME: Small Desktop ------------------------------------------------------------------*/
   
   @media only screen and (max-width: 1200px){
   
@@ -616,10 +658,10 @@ $z-index: (
       justify-content: center;
       background-image: url("../vanilla_website_materials/images/untwined_stretched1.png");
       background-size: cover;
-  
+      background-position: 50%;
+
     }
-  
-  
+    
     .container1{
       display: flex;
       justify-content:space-between;
@@ -648,18 +690,163 @@ $z-index: (
       justify-content: center;
     }
   
-    .quote{ 
-      display: flex; 
-      flex-wrap: wrap;
-      width: 40vw;
-      align-self: flex-start;
-      font-size: 1.5rem;
-      padding-bottom: 2rem;
-    }
+
   
   }
   
+  /*HOME: Mobile LGEST ------------------------------------------------------------------*/
   
+  @media only screen and (max-width: 1000px){
+  
+    
+    .home-bg{
+      display: flex; 
+      justify-content: center;
+      background-image: url("../vanilla_website_materials/images/untwined_stretched1.png");
+      background-size: cover;
+      background-position: 60%;
+  
+    }
+  
+  }
+
+
+
+  /*HOME: Mobile Lg ------------------------------------------------------------------*/
+  
+  @media only screen and (max-width: 700px){
+  
+    
+    .home-bg{
+      display: flex; 
+      justify-content: center;
+      background-image: url("../vanilla_website_materials/images/untwined_stretched1.png");
+      background-size: cover;
+      background-position: 55%;
+  
+    }
+  
+  
+    .container1{
+      display: flex;
+      justify-content:space-between;
+      flex-direction: column;
+      height: 100vh; 
+      width: 100%; 
+      padding-left: 2rem;
+    }
+  
+  
+  }
+  
+   /*HOME: MOBILE SMALL------------------------------------------------------------------*/
+  
+   @media only screen and (max-width: 600px){
+
+    .home-bg{
+      display: flex; 
+      justify-content: center;
+      background-image: url("../vanilla_website_materials/images/untwined_stretched1.png");
+      background-size: cover;
+      background-position: 55%;
+  
+    }
+  
+    .container1{
+      display: flex;
+      justify-content:space-between;
+      flex-direction: column;
+      height: 100vh; 
+      width: 100%; 
+      padding-left: 2rem;
+    }
+  
+    
+  }
+     /*HOME: MOBILE SMALL------------------------------------------------------------------*/
+  
+     @media only screen and (max-width: 500px){
+
+      .home-bg{
+        display: flex; 
+        justify-content: center;
+        background-image: url("../vanilla_website_materials/images/untwined_stretched1.png");
+        background-size: cover;
+        background-position: 65%;
+    
+      }
+    
+      .container1{
+        display: flex;
+        justify-content:space-between;
+        flex-direction: column;
+        height: 100vh; 
+        width: 100%; 
+        padding-left: 2rem;
+      }
+    
+      
+    }
+    
+   /*HOME: MOBILE 2nd SMALLEST------------------------------------------------------------------*/
+
+
+    @media only screen and (max-width: 380px){
+
+      .home-bg{
+        display: flex; 
+        justify-content: center;
+        background-image: url("../vanilla_website_materials/images/untwined_stretched1.png");
+        background-size: cover;
+        background-position: 60%;
+    
+      }
+        
+    .container1{
+      display: flex;
+      justify-content:space-between;
+      flex-direction: column;
+      height: 100vh; 
+      width: 100%; 
+      padding-left: 2rem;
+    }
+  
+    }  
+
+    /*HOME: MOBILE Absolute Smallest---------------------------------------------------------------*/
+
+
+    @media only screen and (max-width: 320px){
+
+      .home-bg{
+        display: flex; 
+        justify-content: center;
+        background-image: url("../vanilla_website_materials/images/untwined_stretched1.png");
+        background-size: cover;
+        background-position: 65%;
+    
+      }
+        
+    .container1{
+      display: flex;
+      justify-content:space-between;
+      flex-direction: column;
+      height: 100vh; 
+      width: 100%; 
+      padding-left: 1rem;
+    }
+    .name{
+      font-size: 2.8rem;
+  }
+
+  .title{    
+      font-size: 1.5rem;
+  }
+
+  .h3{
+      font-size: 1rem;
+  }
+    }  
   /* from vanilla mock-up ----------------------------------------------------------------------*/
   
   

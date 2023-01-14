@@ -23,39 +23,7 @@ import NavBar from './Components/NavBar';
 
 function App() {
 
-//state variables to manage navigation based on viewport size. 
-//knows when to display the mobile nav links
-// const[mobileNavOpen, setMobileNavOpen] = useState(false);
-// //knows when to display the hamburger button
-// const[openMobileNavMenu, setOpenMobileNavMenu] = useState(false);
 
-
-  // useEffect(() => {
-
-  //   if (window.innerWidth > 700){
-  //     setOpenMobileNavMenu(false); 
-  //   }
-  //   else if (window.innerWidth <= 700){
-  //     setOpenMobileNavMenu(true);
-  //   }
-  // },[]);
-
-  // useEffect(() => {
-
-  //   const handleResize = () => {
-  //       if (window.innerWidth > 700){
-  //       setOpenMobileNavMenu(false); 
-  //       setMobileNavOpen(false);
-  //     }
-  //     else if (window.innerWidth <= 700){
-  //       setOpenMobileNavMenu(true);
-  //     }
-  //   }
-  //   window.addEventListener('resize', handleResize);
-  //   return() => {
-  //     window.removeEventListener('resize', handleResize);
-  //   }
-  // },[]);
 
   return (
      
@@ -63,14 +31,6 @@ function App() {
 
     <NavBar/> 
 
-    {//this div gets display none. add display: contents
-    }
-        {/* {!openMobileNavMenu?(  
-          <NavBar/>
-          ):(
-          <NavBurger/>)
-        } */}
-   
           <Routes>
           
           <Route path="/" element={<Home/>} />

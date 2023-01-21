@@ -83,7 +83,7 @@ export default function NavBar() {
                 to="/projects"
                 style={{ textDecoration: "none", color: "white" }}
               >
-                <Button className=" border-bottom m-1 nav-bar-link ">
+                <Button className=" border-bottom m-1 nav-bar-link" onClick={() => setShowAnimated2(!showAnimated2)}>
                   PROJECTS{" "}
                 </Button>
               </Link>
@@ -92,7 +92,7 @@ export default function NavBar() {
                 to="/about"
                 style={{ textDecoration: "none", color: "white" }}
               >
-                <Button className="border-bottom m-1 nav-bar-link">
+                <Button className="border-bottom m-1 nav-bar-link" onClick={() => setShowAnimated2(!showAnimated2)}>
                   ABOUT{" "}
                 </Button>
               </Link>

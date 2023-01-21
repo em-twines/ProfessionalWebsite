@@ -35,11 +35,11 @@ export default function NavBar() {
               <b className='about'>ABOUT</b>
             </Link>
           </li>
-          <li className="contact-nav-link">
+          {/* <li className="contact-nav-link">
             <Link to="/contact" style={{ textDecoration: "none", color: "white" }}>
               <b className='nav'>CONTACT</b>
             </Link>
-          </li>
+          </li> */}
         </div>
       </ul>
 
@@ -68,16 +68,17 @@ export default function NavBar() {
           </MDBNavbar>
 
           <MDBCollapse show={showAnimated2}>
+          
             <div className='bg-light shadow-3 p-4'>
-              <MDBBtn block className='border-bottom m-0' color='link'>
+              <MDBBtn block className='border-bottom m-0 nav-bar-link' >
                 PROJECTS
               </MDBBtn>
-              <MDBBtn block className='border-bottom m-0' color='link'>
+              <MDBBtn block className='border-bottom m-0 nav-bar-link'>
                 ABOUT
               </MDBBtn>
-              <MDBBtn block className='border-bottom m-0' color='link'>
+              {/* <MDBBtn block className='border-bottom m-0' color='link'>
                 CONTACT
-              </MDBBtn>
+              </MDBBtn> */}
             </div>
           </MDBCollapse>
         </section>

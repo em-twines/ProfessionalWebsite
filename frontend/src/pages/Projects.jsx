@@ -3,11 +3,12 @@ import React from "react";
 export default function Projects() {
   return (
     <div>
-      <div className="full-screen">
+      {/* <div className="full-screen">
         <div className="section-title ">Projects</div>
         <div className="project-page-description">
           A short selection of recent work.
         </div>
+        <div className = 'display-container'>
         <div className="project1-container">
           <div className="box"></div>
           <div className="box1"></div>
@@ -17,6 +18,7 @@ export default function Projects() {
               A PTO and OT Management System
             </div>
           </div>
+        </div>
         </div>
         <div className="projects-2-3-container">
           <div className="p2-content">
@@ -36,7 +38,7 @@ export default function Projects() {
           <div className="project-title">Memory Cards</div>
           <div className="text-muted subtitle">A Flashcards App</div>
         </div>
-      </div>
+      </div> */}
 
       <div className="projects-flex">
         <div className="section-title ">Projects</div>
@@ -45,10 +47,15 @@ export default function Projects() {
         </div>
         <hr></hr>
         <div className="project">
-          <div className="project-title">Time Tracker</div>
-          <div className="text-muted subtitle">
-            A PTO and OT Management System
+          <div className="project-title">
+            Same Page <br></br>
+            <small className="text-muted">Time Tracker</small>
           </div>
+          <div className="text-muted subtitle">A PTO Management System (WIP)</div>
+          <img
+            className="project-image img1"
+            alt="Preliminary Procreate-sketch for Same Page app"
+          ></img>
         </div>
         <hr></hr>
         <div className="project">
@@ -56,19 +63,41 @@ export default function Projects() {
           <div className="text-muted subtitle ">
             Visualizations of a Game-based Dataset
           </div>
+          <img
+            className="project-image img2"
+            alt="A data visualization project using Nintendo API"
+          ></img>
+          {/* <iframe
+          className="project-image img2"
+          alt="A data visualization project"
+          width="320"
+          height="180"
+          src={'https://www.youtube.com/embed/oEosVTV8ObY;autoplay=1&mute=1'}
+          allowfullscreen>
+        </iframe> */}
         </div>
         <hr></hr>
         <div className="project">
-          <div className="project-title">Vidio</div>
+          <div className="project-title">Vid.io</div>
           <div className="text-muted subtitle">
             A Music Streaming Site Utilizing Youtube's API
           </div>
+
+          <img
+            className="project-image img3"
+            alt="A VideoPlayer app using Youtube's API"
+          ></img>
         </div>
         <hr></hr>
         <div className="project">
           <div className="project-title">Memory Cards</div>
           <div className="text-muted subtitle">A Flashcards App</div>
+          <img
+            className="project-image img4"
+            alt="A customizable flashcards app"
+          ></img>
         </div>
+
         <hr></hr>
       </div>
     </div>

@@ -13,6 +13,7 @@ $z-index: (
     particle : 20,
     container1: 10,
     home-bg: 0, 
+    nav-burger: 30,
 );
 
 .particle {
@@ -196,14 +197,21 @@ a:hover {
 
 .animated-icon1 span {
   background: #2d7ef7;
+  
 }
 
 .animated-icon2 span {
   background: #e3f2fd;
+  z-index: 30;
+  position: fixed;
+
 }
 
 .animated-icon3 span {
   background: #f3e5f5;
+  z-index: 30;
+  position: fixed;
+
 }
 
 .animated-icon1 span:nth-child(1) {
@@ -363,6 +371,8 @@ a:hover {
       background: #252c35;
       color: #f5fafa;
       margin: auto; 
+      position: fixed;
+      width: 100%;
     }
     
     .nav-flex-jr{
@@ -434,6 +444,8 @@ a:hover {
         color: #f5fafa;
         padding: .5rem;
         margin: auto; 
+        position: fixed;
+        width: 100%;
     }
     
     .nav-flex-jr{
@@ -600,6 +612,10 @@ a:hover {
       color: #252c35;
 
     }
+    .align-right{
+      display: flex; 
+      justify-content: flex-end;
+    }
   }
   
     /*NAVBAR: MOBILE SMALLEST------------------------------------------------------------------*/
@@ -620,7 +636,7 @@ a:hover {
   
       #nav-burger{
         display: contents; 
-
+        position: fixed;
       }
       
       #navFlex{
@@ -654,7 +670,18 @@ a:hover {
         color: #252c35;
 
       }
+
+
+    .home{
+      color: #f5fafa;
+
     }
+    .container-fluid-mine{
+      display: flex; 
+      justify-content: space-between;
+    }
+
+  }
   
   /*HOME: DESKTOP ------------------------------------------------------------------*/
   
@@ -1026,6 +1053,18 @@ a:hover {
     background-image: url("../src/media/headshot_square.jpg");
   }
 
+  .about-me-text{
+    font-size: 1.2rem;;
+    display: flex;
+    align-items: center;    
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    width: 100%;
+    
+}
+
+
 } 
 
 
@@ -1076,6 +1115,17 @@ a:hover {
       background-position: center;
       background-image: url("../src/media/headshot_square.jpg");
     }
+
+    .about-me-text{
+      font-size: 1.2rem;;
+      display: flex;
+      align-items: center;    
+      flex-direction: column;
+      justify-content: center;
+      text-align: justify;
+      width: 120%;
+      
+  }
   
   } 
   
@@ -1362,7 +1412,7 @@ a:hover {
 
   .project{
     border: .1vw solid #191E32;
-    padding: 5rem;
+    padding: 2rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
   }
@@ -1370,7 +1420,7 @@ a:hover {
   .project-image{
     display: flex; 
     margin: auto;
-    height: 15vw;
+    height: 25vw;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -1451,7 +1501,7 @@ a:hover {
     .project-image{
       display: flex; 
       margin: auto;
-      height: 15vw;
+      height: 25vw;
       background-size: contain;
       background-repeat: no-repeat;
       background-position: center;

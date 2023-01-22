@@ -52,10 +52,10 @@ export default function Projects() {
             <small className="text-muted">Time Tracker</small>
           </div>
           <div className="text-muted subtitle">A PTO Management System (WIP)</div>
-          <img
+          <div
             className="project-image img1"
             alt="Preliminary Procreate-sketch for Same Page app"
-          ></img>
+          ></div>
         </div>
         <hr></hr>
         <div className="project">
@@ -63,10 +63,10 @@ export default function Projects() {
           <div className="text-muted subtitle ">
             Visualizations of a Game-based Dataset
           </div>
-          <img
+          <div
             className="project-image img2"
             alt="A data visualization project using Nintendo API"
-          ></img>
+          ></div>
           {/* <iframe
           className="project-image img2"
           alt="A data visualization project"
@@ -83,19 +83,19 @@ export default function Projects() {
             A Music Streaming Site Utilizing Youtube's API
           </div>
 
-          <img
+          <div
             className="project-image img3"
             alt="A VideoPlayer app using Youtube's API"
-          ></img>
+          ></div>
         </div>
         <hr></hr>
         <div className="project">
           <div className="project-title">Memory Cards</div>
           <div className="text-muted subtitle">A Flashcards App</div>
-          <img
+          <div
             className="project-image img4"
             alt="A customizable flashcards app"
-          ></img>
+          ></div>
         </div>
 
         <hr></hr>

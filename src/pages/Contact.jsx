@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import { MDBTextArea } from 'mdb-react-ui-kit';
 
 export default function Contact() {
   const form = useRef();
@@ -25,7 +26,7 @@ export default function Contact() {
         <label>email:</label>
         <input type="email" name="user_email"></input>
         <label>message:</label>
-        <textarea name="message" required></textarea>
+        <MDBTextArea type="textarea" className = 'form-control' rows="4" name="message" required/>
         <div className="submit-button">
           <button className="button-51 font-link " type="submit" value="Send">
             Submit

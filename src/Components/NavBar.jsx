@@ -55,6 +55,7 @@ export default function NavBar() {
                 to="/"
                 className="home"
                 style={{ textDecoration: "none", color: "white" }}
+                onClick={() => setShowAnimated2(!showAnimated2)}
               >
                 HOME
               </Link>

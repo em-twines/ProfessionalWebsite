@@ -6,11 +6,7 @@ export default function Footer() {
     <div>
       <div id="footer">
         <div className="footer-flex">
-          <Link
-            className="icon"
-            to={{ pathname: "https://github.com/em-twines" }}
-            target="_blank"
-          ></Link>
+          <a href="https://github.com/em-twines" className ='icon'></a>
         </div>
       </div>
       <div id = 'hide-footer'></div>

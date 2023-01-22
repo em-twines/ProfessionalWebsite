@@ -46,10 +46,7 @@ export default function NavBar() {
             </Link>
           </li>      
           <li >
-            <Link className="github-icon"
-              to={{pathname: 'https://github.com/em-twines'}}
-              target="_blank"
-            ></Link>
+            <a href="https://github.com/em-twines" className ='github-icon'></a>
           </li>
         </div>
       </ul>
@@ -105,9 +102,15 @@ export default function NavBar() {
                 </Button>
               </Link>
 
-              {/* <MDBBtn block className='border-bottom m-0' color='link'>
-                CONTACT
-              </MDBBtn> */}
+              <Link
+                to="/contact"
+                style={{ textDecoration: "none", color: "white" }}
+              >
+                <Button className=" border-bottom m-1 nav-bar-link" onClick={() => setShowAnimated2(!showAnimated2)}>
+                  CONTACT{" "}
+                </Button>
+              </Link>
+              
             </div>
           </MDBCollapse>
         </section>

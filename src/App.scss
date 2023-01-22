@@ -13,6 +13,7 @@ $z-index: (
   home-bg: 0,
   nav-burger: 30,
   navbar: 30,
+  contact-me: 0,
 );
 
 .particle {
@@ -1663,26 +1664,67 @@ a:hover {
   }
 }
 
-.contact {
-  display: flex;
-  justify-content: center;
-  margin-top: 15vh;
+/* CONTACT Desktop--------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 700px) {
+
+  .contact-me{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-top: 8rem;
+    font-size: 2rem;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    height: 50vh;
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    border: transparent;
+    padding: 1rem;
+  }
+
+  .submit-button {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 4vh;
+  }
 }
 
-.form {
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  height: 50vh;
-  width: 50vw;
-  margin-left: auto;
-  margin-right: auto;
-  border: transparent;
-  padding: 1rem;
+
+/* CONTACT Mobile-------------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 700px) {
+  .contact-me{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-top: 4rem;
+    font-size: 2rem;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    height: 50vh;
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    border: transparent;
+    padding: 1rem;
+  }
+
+  .submit-button {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 4vh;
+  }
 }
 
-.submit-button {
-  display: flex;
-  justify-content: flex-end;
-  margin-top: 4vh;
-}

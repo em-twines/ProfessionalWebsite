@@ -1,12 +1,12 @@
-import React, { useState } from "react";
+import React, { useState , useRef} from "react";
 import emailjs from '@emailjs/browser';
 
 
 export default function Contact() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
-  const [newContactAttempt, setNewContactAttempt] = useState("");
-
+  // const [newContactAttempt, setNewContactAttempt] = useState("");
+  const form = useRef();
   // async function addNewContactAttempt() {
   //   let res = await axios.post(
   //     "http://127.0.0.1:8000/api/contactAttempts/",
@@ -40,7 +40,7 @@ export default function Contact() {
   return (
     <div className = 'contact-me'>
       <div >Contact Me</div>
-      <form className = "form" onSubmit={handleSubmit}>
+      <form ref={form} className = "form" onSubmit={handleSubmit}>
         <label>email:</label>
         <input
           type="text"

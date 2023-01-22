@@ -54,10 +54,12 @@ export default function Projects() {
           <div className="text-muted subtitle">
             A PTO Management System (WIP)
           </div>
-          <div
-            className="project-image img1"
-            alt="Preliminary Procreate-sketch for Same Page app"
-          ></div>
+          <a href="https://github.com/em-twines/same-page-time-tracker">
+            <div
+              className="project-image img1"
+              alt="Preliminary Procreate-sketch for Same Page app"
+            ></div>
+          </a>
           <div className="column-container">
             <div className="column-1">
               <ul className="ul-projects">
@@ -98,10 +100,13 @@ export default function Projects() {
           <div className="text-muted subtitle ">
             Visualizations of a Game-based Dataset
           </div>
-          <div
-            className="project-image img2"
-            alt="A data visualization project using Nintendo API"
-          ></div>
+
+          <a href="https://github.com/GriffithT16/VideoGame_frontend">
+            <div
+              className="project-image img2"
+              alt="A data visualization project using Nintendo API"
+            ></div>
+          </a>
           <div className="column-container">
             <div className="column-1">
               <ul className="ul-projects">
@@ -131,14 +136,6 @@ export default function Projects() {
               <li className="list">Javascript</li>
             </ul>
           </div>
-          {/* <iframe
-          className="project-image img2"
-          alt="A data visualization project"
-          width="320"
-          height="180"
-          src={'https://www.youtube.com/embed/oEosVTV8ObY;autoplay=1&mute=1'}
-          allowfullscreen>
-        </iframe> */}
         </div>
         <hr></hr>
         <div className="project">
@@ -146,17 +143,18 @@ export default function Projects() {
           <div className="text-muted subtitle">
             A Music Streaming Site Utilizing Youtube's API
           </div>
+          <a href="https://github.com/em-twines/YoutubeClone">
+            <div
+              className="project-image img3"
+              alt="A VideoPlayer app using Youtube's API"
+            ></div>
+          </a>
 
-          <div
-            className="project-image img3"
-            alt="A VideoPlayer app using Youtube's API"
-          ></div>
           <div className="column-container">
             <div className="column-1">
               <ul className="ul-projects">
                 <li className="list">React</li>
                 <li className="list">JWT</li>
-                <li className="list">Django REST</li>
                 <li className="list">YouTube API</li>
               </ul>
             </div>
@@ -186,10 +184,12 @@ export default function Projects() {
         <div className="project">
           <div className="project-title">Memory Cards</div>
           <div className="text-muted subtitle">A Flashcards App</div>
-          <div
-            className="project-image img4"
-            alt="A customizable flashcards app"
-          ></div>
+          <a href="https://github.com/em-twines/flashcards">
+            <div
+              className="project-image img4"
+              alt="A customizable flashcards app"
+            ></div>
+          </a>
           <div className="column-container">
             <div className="column-1">
               <ul className="ul-projects">

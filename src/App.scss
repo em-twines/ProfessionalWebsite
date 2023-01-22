@@ -682,7 +682,6 @@ a:hover {
   
     
     .home-bg{
-  
       background-image: url("./media/untwined_stretched1.png");
       background-size: cover;
       // height: calc(100vh - 2.5rem);
@@ -998,7 +997,7 @@ a:hover {
       background-size: contain;
       background-repeat: no-repeat;
       background-position: center;
-      background-image: url("../src/media/headshot_square.jpg");
+      background-image: url("./media/headshot_square.jpg");
     }
   }
 
@@ -1332,7 +1331,32 @@ a:hover {
       margin-bottom: 2rem;
     }
 
-    .project-image{
+    // .project-image{
+    //   display: flex; 
+    //   margin: auto;
+    //   height: 15vw;
+    //   background-size: contain;
+    //   background-repeat: no-repeat;
+    //   background-position: center;
+    //   font-size: .7rem;
+    //   text-align: center;
+    //   justify-content: center;
+    // }
+    
+    .img1{
+      display: flex; 
+      margin: auto;
+      height: 15vw;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      font-size: .7rem;
+      text-align: center;
+      justify-content: center;
+      background-image: url("./media/Login.PNG");
+    }
+    .img2{
+      background-image: url("./media/dataVis1.png");
       display: flex; 
       margin: auto;
       height: 15vw;
@@ -1343,18 +1367,29 @@ a:hover {
       text-align: center;
       justify-content: center;
     }
-    
-    .img1{
-      background-image: url('./media/Login.PNG');
-    }
-    .img2{
-      background-image: url('./media/dataVis1.png');
-    }
     .img3{
-      background-image: url('./media/youtube1.png');
+      background-image: url("./media/youtube1.png");
+      display: flex; 
+      margin: auto;
+      height: 15vw;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      font-size: .7rem;
+      text-align: center;
+      justify-content: center;
     }
     .img4{
-      background-image: url('./media/flashcards.png');
+      background-image: url("./media/flashcards.png");
+      display: flex; 
+      margin: auto;
+      height: 15vw;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      font-size: .7rem;
+      text-align: center;
+      justify-content: center;
     }
 
 
@@ -1412,7 +1447,22 @@ a:hover {
     margin-bottom: 2rem;
   }
 
-  .project-image{
+  // .project-image{
+  //   display: flex; 
+  //   margin: auto;
+  //   height: 25vw;
+  //   background-size: contain;
+  //   background-repeat: no-repeat;
+  //   background-position: center;
+  //   font-size: .7rem;
+  //   text-align: center;
+  //   justify-content: center;
+  //   word-wrap: break-word;
+
+  // }
+  
+  .img1{
+    background-image: url("./media/Login.PNG");
     display: flex; 
     margin: auto;
     height: 25vw;
@@ -1425,18 +1475,44 @@ a:hover {
     word-wrap: break-word;
 
   }
-  
-  .img1{
-    background-image: url('./media/Login.PNG');
-  }
   .img2{
-    background-image: url('./media/dataVis1.png');
+    background-image: url("./media/dataVis1.png");
+    display: flex; 
+    margin: auto;
+    height: 25vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: .7rem;
+    text-align: center;
+    justify-content: center;
+    word-wrap: break-word;
   }
   .img3{
-    background-image: url('./media/youtube1.png');
+    background-image: url("./media/youtube1.png");
+    display: flex; 
+    margin: auto;
+    height: 25vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: .7rem;
+    text-align: center;
+    justify-content: center;
+    word-wrap: break-word;
   }
   .img4{
-    background-image: url('./media/flashcards.png');
+    background-image: url("./media/flashcards.png");
+    display: flex; 
+    margin: auto;
+    height: 25vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: .7rem;
+    text-align: center;
+    justify-content: center;
+    word-wrap: break-word;
   }
 
 }
@@ -1493,7 +1569,21 @@ a:hover {
       margin-top: 2rem;
       margin-bottom: 2rem;
     }
-    .project-image{
+    // .project-image{
+    //   display: flex; 
+    //   margin: auto;
+    //   height: 25vw;
+    //   background-size: contain;
+    //   background-repeat: no-repeat;
+    //   background-position: center;
+    //   font-size: .7rem;
+    //   text-align: center;
+    //   justify-content: center;
+    //   word-wrap: break-word;
+    // }
+    
+    .img1{
+      background-image: url("./media/Login.PNG");
       display: flex; 
       margin: auto;
       height: 25vw;
@@ -1505,18 +1595,44 @@ a:hover {
       justify-content: center;
       word-wrap: break-word;
     }
-    
-    .img1{
-      background-image: url('./media/Login.PNG');
-    }
     .img2{
-      background-image: url('./media/dataVis1.png');
+      background-image: url("./media/dataVis1.png");
+      display: flex; 
+      margin: auto;
+      height: 25vw;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      font-size: .7rem;
+      text-align: center;
+      justify-content: center;
+      word-wrap: break-word;
     }
     .img3{
-      background-image: url('./media/youtube1.png');
+      background-image: url("./media/youtube1.png");
+      display: flex; 
+      margin: auto;
+      height: 25vw;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      font-size: .7rem;
+      text-align: center;
+      justify-content: center;
+      word-wrap: break-word;
     }
     .img4{
-      background-image: url('./media/flashcards.png');
+      background-image: url("./media/flashcards.png");
+      display: flex; 
+      margin: auto;
+      height: 25vw;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      font-size: .7rem;
+      text-align: center;
+      justify-content: center;
+      word-wrap: break-word;
     }
   }
 

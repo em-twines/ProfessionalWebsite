@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import axios from "axios";
+import emailjs from '@emailjs/browser';
+
 export default function Contact() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
@@ -17,6 +18,13 @@ export default function Contact() {
 
   function handleSubmit(event) {
     event.preventDefault();
+
+    emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form.current, PUBLIC_KEY)
+    .then(function(response) {
+       console.log('SUCCESS!', response.status, response.text);
+    }, function(error) {
+       console.log('FAILED...', error);
+    });
     // let newContactAttempt = {
     //   email: email,
     //   message: message,
@@ -31,7 +39,7 @@ export default function Contact() {
   return (
     <div className = 'contact-me'>
       <div >Contact Me</div>
-      <form className="form" onSubmit={handleSubmit}>
+      <form className = "form" onSubmit={handleSubmit}>
         <label>email:</label>
         <input
           type="text"

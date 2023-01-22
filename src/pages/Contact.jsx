@@ -1,24 +1,11 @@
-import React, { useState, useRef } from "react";
+import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
 export default function Contact() {
-  // const [email, setEmail] = useState("");
-  // const [message, setMessage] = useState("");
-  // const [newContactAttempt, setNewContactAttempt] = useState("");
   const form = useRef();
-  // async function addNewContactAttempt() {
-  //   let res = await axios.post(
-  //     "http://127.0.0.1:8000/api/contactAttempts/",
-  //     newContactAttempt
-  //   );
-  //   if (res.status === 201) {
-  //     console.log(res);
-  //   }
-  // }
 
   function handleSubmit(event) {
     event.preventDefault();
-        console.log( process.env.SERVICE_ID , process.env.TEMPLATE_ID, process.env.PUBLIC_KEY)
 
     emailjs
       .sendForm(
@@ -27,23 +14,6 @@ export default function Contact() {
         form.current,
         process.env.REACT_APP_PUBLIC_KEY
         )
-      .then(
-        function (response) {
-          console.log("SUCCESS!", response.status, response.text);
-        },
-        function (error) {
-          console.log("FAILED...", error);
-        }
-      );
-    // let newContactAttempt = {
-    //   email: email,
-    //   message: message,
-    // };
-    // console.log(newContactAttempt);
-    // setNewContactAttempt(newContactAttempt);
-    // addNewContactAttempt(newContactAttempt);
-    // setEmail("");
-    // setMessage("");
   }
 
   return (

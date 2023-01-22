@@ -23,6 +23,7 @@ export default function NavBar() {
           </Link>
         </li>
         <div className="nav-flex-jr">
+
           <li className="projects-nav-link">
             <Link
               to="/projects"
@@ -39,11 +40,17 @@ export default function NavBar() {
               <b className="about">ABOUT</b>
             </Link>
           </li>
-          {/* <li className="contact-nav-link">
+          <li className="contact-nav-link">
             <Link to="/contact" style={{ textDecoration: "none", color: "white" }}>
               <b className='nav'>CONTACT</b>
             </Link>
-          </li> */}
+          </li>      
+          <li >
+            <Link className="github-icon"
+              to={{pathname: 'https://github.com/em-twines'}}
+              target="_blank"
+            ></Link>
+          </li>
         </div>
       </ul>
 

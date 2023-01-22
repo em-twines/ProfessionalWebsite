@@ -13,8 +13,7 @@ import Contact from './pages/Contact';
 
 //import components
 import NavBar from './Components/NavBar';
-// import NavBurger from './Components/NavBurger';
-
+import Footer from './Components/Footer';
 
 
 
@@ -43,7 +42,7 @@ function App() {
           
           </Routes>
             
-      {/* <Footer /> */}
+      <Footer />
 
     </div>
 

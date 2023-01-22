@@ -51,11 +51,46 @@ export default function Projects() {
             Same Page <br></br>
             <small className="text-muted">Time Tracker</small>
           </div>
-          <div className="text-muted subtitle">A PTO Management System (WIP)</div>
+          <div className="text-muted subtitle">
+            A PTO Management System (WIP)
+          </div>
           <div
             className="project-image img1"
             alt="Preliminary Procreate-sketch for Same Page app"
           ></div>
+          <div className="column-container">
+            <div className="column-1">
+              <ul className="ul-projects">
+                <li className="list">React</li>
+                <li className="list">JWT</li>
+                <li className="list">Django REST</li>
+                <li className="list">FullCalendar.io</li>
+                <li className="list">MySql</li>
+              </ul>
+            </div>
+            <div className="column-1">
+              <ul className="ul-projects">
+                <li className="list">HTML</li>
+                <li className="list">CSS</li>
+                <li className="list">Javascript</li>
+                <li className="list">Python</li>
+              </ul>
+            </div>
+          </div>
+          <div className="one-column">
+            <ul className="ul-projects">
+              <li className="list">React</li>
+              <li className="list">JWT</li>
+              <li className="list">Django REST</li>
+              <li className="list">FullCalendar.io</li>
+              <li className="list">MySql</li>
+
+              <li className="list">HTML</li>
+              <li className="list">CSS</li>
+              <li className="list">Javascript</li>
+              <li className="list">Python</li>
+            </ul>
+          </div>
         </div>
         <hr></hr>
         <div className="project">
@@ -67,6 +102,35 @@ export default function Projects() {
             className="project-image img2"
             alt="A data visualization project using Nintendo API"
           ></div>
+          <div className="column-container">
+            <div className="column-1">
+              <ul className="ul-projects">
+                <li className="list">React</li>
+                <li className="list">Java</li>
+                <li className="list">Java Spring</li>
+                <li className="list">Nintendo API</li>
+              </ul>
+            </div>
+            <div className="column-1">
+              <ul className="ul-projects">
+                <li className="list">HTML</li>
+                <li className="list">CSS</li>
+                <li className="list">Javascript</li>
+              </ul>
+            </div>
+          </div>
+          <div className="one-column">
+            <ul className="ul-projects">
+              <li className="list">React</li>
+              <li className="list">Java</li>
+              <li className="list">Java Spring</li>
+              <li className="list">Nintendo API</li>
+
+              <li className="list">HTML</li>
+              <li className="list">CSS</li>
+              <li className="list">Javascript</li>
+            </ul>
+          </div>
           {/* <iframe
           className="project-image img2"
           alt="A data visualization project"
@@ -87,6 +151,36 @@ export default function Projects() {
             className="project-image img3"
             alt="A VideoPlayer app using Youtube's API"
           ></div>
+          <div className="column-container">
+            <div className="column-1">
+              <ul className="ul-projects">
+                <li className="list">React</li>
+                <li className="list">JWT</li>
+                <li className="list">Django REST</li>
+                <li className="list">YouTube API</li>
+              </ul>
+            </div>
+            <div className="column-1">
+              <ul className="ul-projects">
+                <li className="list">HTML</li>
+                <li className="list">CSS</li>
+                <li className="list">Javascript</li>
+                <li className="list">Python</li>
+              </ul>
+            </div>
+          </div>
+          <div className="one-column">
+            <ul className="ul-projects">
+              <li className="list">React</li>
+              <li className="list">JWT</li>
+              <li className="list">Django REST</li>
+              <li className="list">YouTube API</li>
+              <li className="list">HTML</li>
+              <li className="list">CSS</li>
+              <li className="list">Javascript</li>
+              <li className="list">Python</li>
+            </ul>
+          </div>
         </div>
         <hr></hr>
         <div className="project">
@@ -96,6 +190,32 @@ export default function Projects() {
             className="project-image img4"
             alt="A customizable flashcards app"
           ></div>
+          <div className="column-container">
+            <div className="column-1">
+              <ul className="ul-projects">
+                <li className="list">React</li>
+                <li className="list">Django REST</li>
+                <li className="list">Python</li>
+              </ul>
+            </div>
+            <div className="column-1">
+              <ul className="ul-projects">
+                <li className="list">HTML</li>
+                <li className="list">CSS</li>
+                <li className="list">Javascript</li>
+              </ul>
+            </div>
+          </div>
+          <div className="one-column">
+            <ul className="ul-projects">
+              <li className="list">React</li>
+              <li className="list">Django REST</li>
+              <li className="list">Python</li>
+              <li className="list">HTML</li>
+              <li className="list">CSS</li>
+              <li className="list">Javascript</li>
+            </ul>
+          </div>
         </div>
 
         <hr></hr>

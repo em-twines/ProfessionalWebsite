@@ -10,7 +10,16 @@ export default function About() {
           <div className = "about-me-column">
               <h2 className = "h2 about-me-label" id="about-me">About Me</h2>
               <p className = "about-me-text">
-                  I'm Emily Delbridge, and I'm a software developer with experience programming for live interactive performances, web apps, and gaming. I'm comfortable working in HTML, CSS, JavaScript, Java, C#, and Python, with Django, Spring, and Sql, and, on occasion, with MaxMSP. I work in service of creation, remembering the past, but thinking always to the future. 
+              <br></br>
+                  <hr></hr>
+                  I'm Emily, and I write code. 
+                  <br></br>
+                  <hr></hr>
+                  Well mostly I read code. And I read about code. But mostly people think I write code, so that's often the easiest to say. 
+                  <br></br>
+                  <hr></hr>
+
+                  Before I wrote code, I made art -- programming for live interactive performances and making games. I sort of think coding is art too. I love a good puzzle and a detailed error message, and am always excited to see a project through the finish line. I'm enthusiastic and inquisitive, and just generally really enjoy doing what I do. Thanks for checking out my work, and feel free to reach out!  
                 </p>
           </div>
           <div className = "about-me-image"> </div>

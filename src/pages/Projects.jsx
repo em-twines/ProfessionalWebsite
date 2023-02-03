@@ -52,7 +52,7 @@ export default function Projects() {
             <small className="text-muted">Time Tracker</small>
           </div>
           <div className="text-muted subtitle">
-            A PTO Management System (WIP)
+            An All-In-One PTO Management System
           </div>
           <a href="https://github.com/em-twines/same-page-time-tracker">
             <div
@@ -67,7 +67,7 @@ export default function Projects() {
                 <li className="list">JWT</li>
                 <li className="list">Django REST</li>
                 <li className="list">FullCalendar.io</li>
-                <li className="list">MySql</li>
+                <li className="list">MySQL</li>
               </ul>
             </div>
             <div className="column-1">
@@ -85,7 +85,7 @@ export default function Projects() {
               <li className="list">JWT</li>
               <li className="list">Django REST</li>
               <li className="list">FullCalendar.io</li>
-              <li className="list">MySql</li>
+              <li className="list">MySQL</li>
 
               <li className="list">HTML</li>
               <li className="list">CSS</li>
@@ -156,6 +156,8 @@ export default function Projects() {
                 <li className="list">React</li>
                 <li className="list">JWT</li>
                 <li className="list">YouTube API</li>
+                <li className="list">MySQL</li>
+
               </ul>
             </div>
             <div className="column-1">

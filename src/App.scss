@@ -71,6 +71,14 @@ a:hover {
   list-style-type: disc;
 }
 
+.center{
+  display: flex; 
+  width: 100vw; 
+  justify-content: center;
+  text-align: center;
+  padding: 1rem;
+
+}
 
 
 /*buttons -----------------------------------------------------------------------------------------*/
@@ -1378,6 +1386,15 @@ a:hover {
   .one-column {
     display: none;
   }
+
+  .include-button{
+    display: flex; 
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+  }
+
+
 }
 
 /* PROJECTS MOBILE LARGEST ----------------------------------------------------------------------*/
@@ -1508,6 +1525,13 @@ a:hover {
   .one-column {
     display: none;
   }
+  .include-button{
+    display: flex; 
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 /* PROJECTS MOBILE Medium ----------------------------------------------------------------------*/
@@ -1637,6 +1661,7 @@ a:hover {
     font-size: 1rem;
   }
 }
+/* PROJECTS MOBILE Small ----------------------------------------------------------------------*/
 
 @media only screen and (max-width: 400px) {
   .column-container {
@@ -1650,6 +1675,13 @@ a:hover {
   }
   .list {
     font-size: 1rem;
+  }
+
+  .smaller{
+    display: flex;
+    font-size: .8rem;
+    text-align: center;
+    width: 35vw;
   }
 }
 

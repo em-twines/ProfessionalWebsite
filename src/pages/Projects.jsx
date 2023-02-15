@@ -61,42 +61,53 @@ export default function Projects() {
                 alt="Preliminary Procreate-sketch for Same Page app"
               ></div>
             </a>
+            <div className="include-button">
+              <div>
+                <div className="column-container">
+                  <div className="column-1">
+                    <ul className="ul-projects">
+                      <li className="list">React</li>
+                      <li className="list">JWT</li>
+                      <li className="list">Django REST</li>
+                      <li className="list">FullCalendar.io</li>
+                      <li className="list">MySQL</li>
+                    </ul>
+                  </div>
+                  <div className="column-1">
+                    <ul className="ul-projects">
+                      <li className="list">HTML</li>
+                      <li className="list">CSS</li>
+                      <li className="list">Javascript</li>
+                      <li className="list">Python</li>
+                    </ul>
+                  </div>
+                </div>
+                <div className="one-column">
+                  <ul className="ul-projects">
+                    <li className="list">React</li>
+                    <li className="list">JWT</li>
+                    <li className="list">Django REST</li>
+                    <li className="list">FullCalendar.io</li>
+                    <li className="list">MySQL</li>
 
-            <div className="column-container">
-              <div className="column-1">
-                <ul className="ul-projects">
-                  <li className="list">React</li>
-                  <li className="list">JWT</li>
-                  <li className="list">Django REST</li>
-                  <li className="list">FullCalendar.io</li>
-                  <li className="list">MySQL</li>
-                </ul>
+                    <li className="list">HTML</li>
+                    <li className="list">CSS</li>
+                    <li className="list">Javascript</li>
+                    <li className="list">Python</li>
+                  </ul>
+                </div>{" "}
+              </div>{" "}
+              <div>
+                <a href="https://youtu.be/jSsTco6omeE">
+                  <button className="button-51 smaller">
+                    See it in action!
+                  </button>
+                </a>
               </div>
-              <div className="column-1">
-                <ul className="ul-projects">
-                  <li className="list">HTML</li>
-                  <li className="list">CSS</li>
-                  <li className="list">Javascript</li>
-                  <li className="list">Python</li>
-                </ul>
-              </div>
-            </div>
-            <div className="one-column">
-              <ul className="ul-projects">
-                <li className="list">React</li>
-                <li className="list">JWT</li>
-                <li className="list">Django REST</li>
-                <li className="list">FullCalendar.io</li>
-                <li className="list">MySQL</li>
-
-                <li className="list">HTML</li>
-                <li className="list">CSS</li>
-                <li className="list">Javascript</li>
-                <li className="list">Python</li>
-              </ul>
             </div>
           </div>
         </div>
+
         <hr></hr>
         <div className="project">
           <div className="project-title">The Gaming Codex</div>

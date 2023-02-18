@@ -45,8 +45,11 @@ export default function Projects() {
         {/* <div className="project-page-description">
           A short selection of my work.
         </div> */}
+
+
+
         <hr></hr>
-        <div className="project">
+      <div className="project">
           <div className="project-title">
             Same Page <br></br>
             <small className="text-muted">Time Tracker</small>
@@ -58,7 +61,7 @@ export default function Projects() {
             <a href="https://github.com/em-twines/same-page-time-tracker">
               <div
                 className="img img1"
-                alt="Preliminary Procreate-sketch for Same Page app"
+                alt="Manage Employees Table in Same Page Time Tracker"
               ></div>
             </a>
             <div className="include-button">
@@ -107,6 +110,75 @@ export default function Projects() {
             </div>
           </div>
         </div>
+
+
+
+
+        <hr></hr>
+
+        <div className="project">
+          <div className="project-title">
+            lookingGlass <br></br>
+          </div>
+          <div className="text-muted subtitle">
+            A 3D Unity Game and Video Installation Piece
+          </div>
+          <div className="horizontal-column">
+              <div
+                className=" img5"
+                alt="Avatar standing in front of a video 'projection'"
+              ></div>
+            <div className="include-button">
+              <div>
+                <div className="column-container">
+                  <div className="column-1">
+                    <ul className="ul-projects">
+                      <li className="list">Unty</li>
+                      <li className="list">C#</li>
+                      <li className="list">Ubuntu</li>
+                      <li className="list">Apache2</li>
+                    </ul>
+                  </div>
+                  <div className="column-1">
+                    <ul className="ul-projects">
+                      <li className="list">HTML</li>
+                      <li className="list">WinSCP</li>
+                      <li className="list">Digital Ocean</li>
+                      <li className="list">Adobe Suite</li>
+                    </ul>
+                  </div>
+                </div>
+                <div className="one-column">
+                  <ul className="ul-projects">
+                  <li className="list">Unty</li>
+                      <li className="list">C#</li>
+                      <li className="list">Ubuntu</li>
+                      <li className="list">Apache2</li>
+
+               
+            
+                      <li className="list">HTML</li>
+                      <li className="list">WinSCP</li>
+                      <li className="list">Digital Ocean</li>
+                      <li className="list">Adobe Suite</li>
+                  </ul>
+   </div>
+              </div>{" "}
+              <div>
+                <a href="https://www.playlookingglass.com/">
+                  <button className="button-51 smaller">
+                    Play Now!
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
 
         <hr></hr>
         <div className="project">

@@ -1373,6 +1373,20 @@ a:hover {
     background-image: url("./media/flashcards.png");
 
   }
+  .img5 {
+    display: flex;
+    width: 30vw;
+    height: 20vw;
+    margin: 2rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 0.7rem;
+    text-align: center;
+    justify-content: center;
+    background-image: url("./media/lookingGlass.jpg");
+
+  }
 
   .column-container {
     display: flex;
@@ -1512,6 +1526,19 @@ a:hover {
     justify-content: center;
     word-wrap: break-word;
   }
+  .img5 {
+    background-image: url("./media/lookingGlass.jpg");
+    display: flex;
+    margin: auto;
+    height: 25vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 0.7rem;
+    text-align: center;
+    justify-content: center;
+    word-wrap: break-word;
+  }
 
   .column-container {
     display: flex;
@@ -1635,6 +1662,19 @@ a:hover {
   }
   .img4 {
     background-image: url("./media/flashcards.png");
+    display: flex;
+    margin: auto;
+    height: 25vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 0.7rem;
+    text-align: center;
+    justify-content: center;
+    word-wrap: break-word;
+  }
+  .img5 {
+    background-image: url("./media/lookingGlass.jpg");
     display: flex;
     margin: auto;
     height: 25vw;

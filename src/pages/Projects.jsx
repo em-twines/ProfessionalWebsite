@@ -319,7 +319,58 @@ export default function Projects() {
 
 
 
-     
+        <hr></hr>
+        <div className="project">
+          <div className="project-title">
+            UnTwined <br></br>
+          </div>
+          <div className="text-muted subtitle">
+            An Interactive Performance Studying Loss and Memory
+          </div>
+          <div className="horizontal-column">
+              <div
+                className="img img7"
+                alt="A man stands in front of a wall of digital noise"
+              ></div>
+            <div className="include-button">
+              <div>
+                <div className="column-container">
+                  <div className="column-1">
+                    <ul className="ul-projects">
+                    <li className="list">MaxMSP</li>
+                    <li className="list">Ableton</li>
+                   
+                    </ul>
+                  </div>
+                  <div className="column-1">
+                    <ul className="ul-projects">
+                    <li className="list">Adobe Suite</li>
+                    <li className="list">DSLR Live-Streaming</li>
+
+                    </ul>
+                  </div>
+                </div>
+                <div className="one-column">
+                  <ul className="ul-projects">
+                    <li className="list">MaxMSP</li>
+                    <li className="list">Ableton</li>
+                    <li className="list">Adobe Suite</li>
+                    <li className="list">DSLR Live-Streaming</li>
+
+                  </ul>
+                </div>{" "}
+              </div>{" "}
+              <div>
+                <a href="https://youtu.be/HNz4V5M4188">
+                  <button className="button-51 smaller">
+                    See Video of the Show!
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
 
 
 

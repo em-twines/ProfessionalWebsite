@@ -46,10 +46,8 @@ export default function Projects() {
           A short selection of my work.
         </div> */}
 
-
-
         <hr></hr>
-      <div className="project">
+        <div className="project">
           <div className="project-title">
             Same Page <br></br>
             <small className="text-muted">Time Tracker</small>
@@ -111,9 +109,6 @@ export default function Projects() {
           </div>
         </div>
 
-
-
-
         <hr></hr>
 
         <div className="project">
@@ -124,10 +119,10 @@ export default function Projects() {
             A 3D Unity Game and Video Installation Piece
           </div>
           <div className="horizontal-column">
-              <div
-                className=" img5"
-                alt="Avatar standing in front of a video 'projection'"
-              ></div>
+            <div
+              className=" img5"
+              alt="Avatar standing in front of a video 'projection'"
+            ></div>
             <div className="include-button">
               <div>
                 <div className="column-container">
@@ -136,7 +131,7 @@ export default function Projects() {
                       <li className="list">Unty</li>
                       <li className="list">C#</li>
                       <li className="list">Ubuntu</li>
-                      <li className="list">Apache2</li>
+                      <li className="list">Apache</li>
                     </ul>
                   </div>
                   <div className="column-1">
@@ -150,35 +145,26 @@ export default function Projects() {
                 </div>
                 <div className="one-column">
                   <ul className="ul-projects">
-                  <li className="list">Unty</li>
-                      <li className="list">C#</li>
-                      <li className="list">Ubuntu</li>
-                      <li className="list">Apache2</li>
+                    <li className="list">Unty</li>
+                    <li className="list">C#</li>
+                    <li className="list">Ubuntu</li>
+                    <li className="list">Apache2</li>
 
-               
-            
-                      <li className="list">HTML</li>
-                      <li className="list">WinSCP</li>
-                      <li className="list">Digital Ocean</li>
-                      <li className="list">Adobe Suite</li>
+                    <li className="list">HTML</li>
+                    <li className="list">WinSCP</li>
+                    <li className="list">Digital Ocean</li>
+                    <li className="list">Adobe Suite</li>
                   </ul>
-   </div>
+                </div>
               </div>{" "}
               <div>
                 <a href="https://www.playlookingglass.com/">
-                  <button className="button-51 smaller">
-                    Play Now!
-                  </button>
+                  <button className="button-51 smaller">Play Now!</button>
                 </a>
               </div>
             </div>
           </div>
         </div>
-
-
-
-
-
 
         <hr></hr>
         <div className="project">
@@ -225,6 +211,65 @@ export default function Projects() {
           </div>
         </div>
 
+
+
+        <hr></hr>
+        <div className="project">
+          <div className="project-title">
+            i heard an echo <br></br>
+          </div>
+          <div className="text-muted subtitle">
+            An Interactive Installation for the Weeksville Heritage Center
+          </div>
+          <div className="horizontal-column">
+              <div
+                className="img img6"
+                alt="Delayed and Ovelayed Video of a Woman Dancing"
+              ></div>
+            <div className="include-button">
+              <div>
+                <div className="column-container">
+                  <div className="column-1">
+                    <ul className="ul-projects">
+                    <li className="list">MaxMSP</li>
+                    <li className="list">Kinect</li>
+                   
+                    </ul>
+                  </div>
+                  <div className="column-1">
+                    <ul className="ul-projects">
+                    <li className="list">Adobe Suite</li>
+                    <li className="list">Arduino</li>
+
+                    </ul>
+                  </div>
+                </div>
+                <div className="one-column">
+                  <ul className="ul-projects">
+                    <li className="list">MaxMSP</li>
+                    <li className="list">Kinect</li>
+                    <li className="list">Adobe Suite</li>
+                    <li className="list">Arduino</li>
+
+                  </ul>
+                </div>{" "}
+              </div>{" "}
+              <div>
+                <a href="https://youtu.be/j3KPb_8Abi4">
+                  <button className="button-51 smaller">
+                    See Video of the Event!
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
         <hr></hr>
         <div className="project">
           <div className="project-title">Vid.io</div>
@@ -270,6 +315,14 @@ export default function Projects() {
             </div>
           </div>
         </div>
+
+
+
+
+     
+
+
+
         <hr></hr>
         <div className="project">
           <div className="project-title">Memory Cards</div>

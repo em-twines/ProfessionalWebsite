@@ -1387,7 +1387,23 @@ a:hover {
     background-image: url("./media/lookingGlass.jpg");
 
   }
+  .img6 {
+    display: flex;
+    width: 30vw;
+    height: 20vw;
+    margin: 2rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 0.7rem;
+    text-align: center;
+    justify-content: center;
+    background-image: url("./media/weeksvilleInstallation.jpg");
 
+  }
+
+
+  
   .column-container {
     display: flex;
     justify-content: center;
@@ -1539,6 +1555,19 @@ a:hover {
     justify-content: center;
     word-wrap: break-word;
   }
+  .img6 {
+    background-image: url("./media/weeksvilleInstallation.jpg");
+    display: flex;
+    margin: auto;
+    height: 25vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 0.7rem;
+    text-align: center;
+    justify-content: center;
+    word-wrap: break-word;
+  }
 
   .column-container {
     display: flex;
@@ -1675,6 +1704,19 @@ a:hover {
   }
   .img5 {
     background-image: url("./media/lookingGlass.jpg");
+    display: flex;
+    margin: auto;
+    height: 25vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 0.7rem;
+    text-align: center;
+    justify-content: center;
+    word-wrap: break-word;
+  }
+  .img5 {
+    background-image: url("./media/weeksvilleInstallation.jpg");
     display: flex;
     margin: auto;
     height: 25vw;

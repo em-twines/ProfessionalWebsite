@@ -6,8 +6,6 @@ export default function Projects() {
       <div className="particle"></div>
       <div className="particle"></div>
       <div className="particle"></div>
-
-
       <div className="particle"></div>
       <div className="particle"></div>
       <div className="particle"></div>
@@ -15,14 +13,6 @@ export default function Projects() {
       <div className="particle"></div>
       <div className="particle"></div>
       <div className="particle"></div>
-      <div className="particle"></div>
-      <div className="particle"></div>
-      <div className="particle"></div>
-      <div className="particle"></div>
-      <div className="particle"></div>
-      <div className="particle"></div>
-      <div className="particle"></div>
-
       <div className="particle"></div>
       <div className="particle"></div>
       {/* <div className="full-screen">

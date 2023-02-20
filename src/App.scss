@@ -970,12 +970,14 @@ a:hover {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10vw;
-    padding-top: 10vw;
+    // padding-top: 10vw;
+    padding-top: 7.5vw;
     padding-left: 10vw;
     padding-right: 10vw;
     padding-bottom: 10vw;
     margin-bottom: 10vw;
     gap: 5vw;
+    
   }
 
   .about-me-column {
@@ -984,16 +986,16 @@ a:hover {
     padding-top: 3vh;
     align-items: center;
     justify-content: center;
+    
   }
 
   .about-me-label {
     display: flex;
-    padding-top: 3vh;
-    padding-bottom: 3vh;
     align-items: center;
     justify-content: center;
     flex-direction: column;
   }
+
 
   .about-me-text {
     font-size: 1.2rem;
@@ -1002,21 +1004,30 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     text-align: justify;
-    width: 75%;
+    width: 90%;
+  }
+
+  .full-page-text{
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    width: 100%;
   }
 
   .about-me-image {
     display: flex;
-    padding-top: 10%;
-    align-items: center;
-    height: 20vw;
-    width: 200%;
+    height: 10vw;
+    width: 75%;
     justify-content: center;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     background-image: url("./media/headshot_square.jpg");
   }
+
 }
 
 /* ABOUT TABLET ----------------------------------------------------------------------*/
@@ -1052,7 +1063,7 @@ a:hover {
     display: flex;
     padding-top: 10%;
     align-items: center;
-    height: 20vw;
+    height: 15vw;
     width: 200%;
     justify-content: center;
     background-size: contain;
@@ -1105,7 +1116,7 @@ a:hover {
     display: flex;
     padding-top: 10%;
     align-items: center;
-    height: 40vw;
+    height: 20vw;
     width: 200%;
     justify-content: center;
     background-size: contain;
@@ -1123,6 +1134,24 @@ a:hover {
     text-align: justify;
     width: 120%;
   }
+}
+/* ABOUT MOBILE Small----------------------------------------------------------------------*/
+
+@media only screen and (max-width: 400px) {
+
+
+.about-me-image {
+  display: flex;
+  padding-top: 10%;
+  align-items: center;
+  height: 30vw;
+  width: 200%;
+  justify-content: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("./media/headshot_square.jpg");
+}
 }
 
 /* PROJECTS DESKTOP ----------------------------------------------------------------------*/

@@ -15,6 +15,8 @@ export default function Contact() {
         form.current,
         process.env.REACT_APP_PUBLIC_KEY
         )
+      .then(form.current.reset());
+    
   }
 
   return (

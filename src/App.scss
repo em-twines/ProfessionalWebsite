@@ -8,18 +8,37 @@
 }
 
 $z-index: (
-  particle: 20,
-  container1: 10,
-  home-bg: 0,
+  particle: 0,
+  container1: 0,
+  // home-bg: -,
   nav-burger: 30,
   navbar: 30,
-  contact-me: 0,
+ 
 );
 
+// $z-index: (
+//   particle: -5,
+//   particle1: 50,
+//   container1: 0,
+//   home-bg: -40,
+//   nav-burger: 30,
+//   navbar: 30,
+  
+// );
+//   particle: 20,
+//   container1: 10,
+//   home-bg: 0,
+//   nav-burger: 30,
+//   navbar: 30,
+//   contact-me: 0,
+
+// );
+
 .particle {
-  position: absolute;
+  position: fixed;
   border-radius: 50%;
   z-index: map-get($z-index, particle);
+
 }
 
 @for $i from 1 through 30 {
@@ -48,12 +67,50 @@ $z-index: (
     background: hsl(randomNum(200, 270), 70%, 50%);
   }
 }
+.particle1 {
+  position: absolute;
+  border-radius: 50%;
+  z-index: map-get($z-index, particle);
+
+}
+
+@for $i from 1 through 30 {
+  @keyframes particle1-animation-#{$i} {
+    90% {
+      transform: translate3d(
+        (random(90) * 1vw),
+        (random(90) * 1vh),
+        (random(100) * 1px)
+      );
+    }
+  }
+
+  .particle1:nth-child(#{$i}) {
+    animation: particle1-animation-#{$i} 60s infinite;
+    $size: random(8) + 5 + px;
+    opacity: random(100) / 100;
+    height: $size;
+    width: $size;
+    animation-delay: -$i * 0.2s;
+    transform: translate3d(
+      (random(90) * 1vw),
+      (random(90) * 1vh),
+      (random(100) * 1px)
+    );
+    background: hsl(randomNum(200, 270), 70%, 50%);
+  }
+}
 
 //main css ------------------------------------------------------------------------------------------
 
 .App {
   font-size: 1.2rem;
   font-family: "Quicksand";
+
+    // background-image: url("./media/untwined_stretched1.png");
+    // background-size: cover;
+    // background-attachment: fixed;
+
 }
 
 a:hover {
@@ -344,7 +401,7 @@ a:hover {
 
 @media only screen and (min-width: 1500px) {
   .navbar {
-    position: fixed;
+    position: sticky;
     top: 0;
     width: 100%;
   }
@@ -369,11 +426,12 @@ a:hover {
     justify-content: space-between;
     flex-shrink: 1;
     align-items: center;
-    background: #252c35;
+    background: #252c35 !important;
     color: #f5fafa;
     margin: auto;
     position: fixed;
     width: 100%;
+    z-index: 10;
   }
 
   .nav-flex-jr {
@@ -450,6 +508,8 @@ a:hover {
     margin: auto;
     position: fixed;
     width: 100%;
+    z-index: 10;
+
   }
 
   .nav-flex-jr {
@@ -522,6 +582,8 @@ a:hover {
     color: #f5fafa;
     padding: 1rem;
     margin: auto;
+    z-index: 10;
+
   }
 
   .nav-flex-jr {
@@ -579,6 +641,8 @@ a:hover {
 
   #nav-burger {
     display: contents;
+    z-index: 10;
+
   }
 
   #navFlex {
@@ -623,6 +687,8 @@ a:hover {
   width: 100vw;
   background: #252c35;
   color: #f5fafa;
+  z-index: 10;
+
 }
 
 .footer-flex {
@@ -739,7 +805,7 @@ a:hover {
 
 /*HOME: DESKTOP ------------------------------------------------------------------*/
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 700px) {
   .home-bg {
     background-image: url("./media/untwined_stretched1.png");
     background-size: cover;
@@ -754,198 +820,304 @@ a:hover {
     flex-direction: column;
     height: calc(100vh - 2.5rem);
     width: 100%;
-    padding-left: 4rem;
+    justify-content: center;
+    // padding-left: 4rem;
+    // margin: auto;
+    text-align: center;
+    align-items: center;
+
   }
 
   .name {
-    font-size: 3rem;
-    padding-top: 5rem;
-  }
+    display: flex; 
+    padding-top: 8rem;
+    justify-content: center;
+    font-size: 4rem;
+    text-shadow: 1px 1px 4px#9ec2f4  }
 
   .title {
     font-size: 2rem;
-    padding-left: 4rem;
+    text-shadow: 1px 1px 4px#9ec2f4
   }
 
   .h3 {
     font-size: 2rem;
   }
+  .attribution{
+    font-size: 1rem;
+    text-shadow: 1px 1px 4px#9ec2f4
 
-  .name-and-title {
-    display: flex;
-    padding-top: 5rem;
-    padding-left: 6rem;
-    flex-direction: column;
-    height: 10rem;
-    justify-content: space-around;
   }
 
-  /* 
-    .quote{ 
-      display: flex; 
-      flex-wrap: wrap;
-      width: 20vw;
-      align-self: flex-end;
-      font-size: 3rem;
-      padding-bottom: 6rem;
-      padding-right: 6rem;
-    } */
+  // .name-and-title{
+  //   display: flex;
+  //   flex-direction: column;
+  // }
+
+  .quote{
+    padding-top: 4rem;
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 4px#9ec2f4;
+    width: 60%;
+  }
+
+
+  .quote-group{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 6rem;
+
+   }
+  // .name-and-title {
+  //   display: flex;
+  //   padding-top: 5rem;
+  //   padding-left: 6rem;
+  //   flex-direction: column;
+  //   height: 10rem;
+  //   justify-content: space-around;
+  //   text-shadow: 2px 2px 2px white;
+
+  // }
+
+  //   .quote{ 
+  //     display: flex; 
+  //     flex-wrap: wrap;
+  //     width: 25vw;
+  //     align-self: flex-end;
+  //     font-size: 1.5rem;
+  //     padding-bottom: 2rem;
+  //     padding-right: 30rem;
+  //     text-shadow: 2px 2px 2px white;
+  //   }
 }
 
 /*HOME: Small Desktop ------------------------------------------------------------------*/
 
-@media only screen and (max-width: 1200px) {
-  .home-bg {
-    display: flex;
-    justify-content: center;
-    background-image: url("./media/untwined_stretched1.png");
-    background-size: cover;
-    background-position: 50%;
-  }
+// @media only screen and (max-width: 1200px) {
+//   .home-bg {
+//     display: flex;
+//     justify-content: center;
+//     background-image: url("./media/untwined_stretched1.png");
+//     background-size: cover;
+//     background-position: 50%;
+//   }
+// }
+//   .container1 {
+//     display: flex;
+//     justify-content: space-between;
+//     flex-direction: column;
+//     height: 100vh;
+//     width: 100%;
+//     padding-left: 4rem;
+//   }
 
-  .container1 {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    height: 100vh;
-    width: 100%;
-    padding-left: 4rem;
-  }
+//   .name {
+//     font-size: 3rem;
+//   }
 
-  .name {
-    font-size: 3rem;
-  }
+//   .title {
+//     font-size: 2rem;
+//   }
 
-  .title {
-    font-size: 2rem;
-  }
+//   .h3 {
+//     font-size: 1rem;
+//   }
 
-  .h3 {
-    font-size: 1rem;
-  }
-
-  .name-and-title {
-    display: flex;
-    flex-direction: column;
-    height: 20rem;
-    justify-content: center;
-  }
-}
+//   .name-and-title {
+//     display: flex;
+//     flex-direction: column;
+//     height: 20rem;
+//     justify-content: center;
+//   }
+// }
 
 /*HOME: Mobile LGEST ------------------------------------------------------------------*/
 
-@media only screen and (max-width: 1000px) {
-  .home-bg {
-    display: flex;
-    justify-content: center;
-    background-image: url("./media/untwined_stretched1.png");
-    background-size: cover;
-    background-position: 60%;
-  }
-}
+// @media only screen and (max-width: 1000px) {
+//   .home-bg {
+//     display: flex;
+//     justify-content: center;
+//     background-image: url("./media/untwined_stretched1.png");
+//     background-size: cover;
+//     background-position: 60%;
+//   }
+// }
 
 /*HOME: Mobile Lg ------------------------------------------------------------------*/
 
+// @media only screen and (max-width: 1000px) {
+//   .home-bg {
+//     display: flex;
+//     justify-content: center;
+//     background-image: url("./media/untwined_stretched1.png");
+//     background-size: cover;
+//     background-position: 55%;
+//   }
+
+//   .container1 {
+//     display: flex;
+//     justify-content: space-between;
+//     flex-direction: column;
+//     height: 100vh;
+//     width: 100%;
+//     padding-left: 2rem;
+//   }
+// }
+
+/*HOME: MOBILE SMALL------------------------------------------------------------------*/
+
+// @media only screen and (max-width: 700px) {
+//   .home-bg {
+//     display: flex;
+//     justify-content: center;
+//     background-image: url("./media/untwined_stretched1.png");
+//     background-size: cover;
+//     background-position: 55%;
+//   }
+
+  // .container1 {
+  //   display: flex;
+  //   justify-content: space-between;
+  //   flex-direction: column;
+  //   height: 100vh;
+  //   width: 100%;
+  //   padding-left: 2rem;
+  // }
+
+/*HOME: MOBILE SMALL------------------------------------------------------------------*/
+
 @media only screen and (max-width: 700px) {
+  // .home-bg {
+  //   display: flex;
+  //   justify-content: center;
+  //   background-image: url("./media/untwined_stretched1.png");
+  //   background-size: cover;
+  //   background-position: 65%;
+  // }
+
+  // .container1 {
+  //   display: flex;
+  //   justify-content: space-between;
+  //   flex-direction: column;
+  //   height: 100vh;
+  //   width: 100%;
+  //   padding-left: 2rem;
+  // }
   .home-bg {
-    display: flex;
-    justify-content: center;
     background-image: url("./media/untwined_stretched1.png");
     background-size: cover;
-    background-position: 55%;
+    height: calc(100vh - 2.5rem);
+    height: 100vh;
+    width: 100vw;
   }
-
+  
   .container1 {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    height: 100vh;
+    height: calc(100vh - 2.5rem);
     width: 100%;
-    padding-left: 2rem;
-  }
-}
+    text-align: center;
+    align-items: center;
+    padding: 2rem;
 
-/*HOME: MOBILE SMALL------------------------------------------------------------------*/
-
-@media only screen and (max-width: 600px) {
-  .home-bg {
-    display: flex;
-    justify-content: center;
-    background-image: url("./media/untwined_stretched1.png");
-    background-size: cover;
-    background-position: 55%;
   }
 
-  .container1 {
-    display: flex;
-    justify-content: space-between;
+  .name {
+    display: flex; 
+    font-size: 3.5rem;
+    text-shadow: 1px 1px 4px#9ec2f4;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: 4rem;
+  }
+
+  .title {
+    font-size: 1.8rem;
+    text-shadow: 1px 1px 4px#9ec2f4;
+  }
+
+  .h3 {
+    font-size: 1.8rem;
+  }
+  .attribution{
+    font-size: 1rem;
+    text-shadow: 1px 1px 4px#9ec2f4;
+    padding-bottom: 8rem;
+
+  }
+
+  .quote{
+    padding-top: 4rem;
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 4px#9ec2f4;
+    width: 85%;
+   }
+
+   .quote-group{
+    display: flex; 
     flex-direction: column;
-    height: 100vh;
-    width: 100%;
-    padding-left: 2rem;
-  }
-}
-/*HOME: MOBILE SMALL------------------------------------------------------------------*/
-
-@media only screen and (max-width: 500px) {
-  .home-bg {
-    display: flex;
+    align-items: center;
     justify-content: center;
-    background-image: url("./media/untwined_stretched1.png");
-    background-size: cover;
-    background-position: 65%;
-  }
+    padding-bottom: 6rem;
 
-  .container1 {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    height: 100vh;
-    width: 100%;
-    padding-left: 2rem;
-  }
+   }
+
 }
 
 /*HOME: MOBILE 2nd SMALLEST------------------------------------------------------------------*/
 
 @media only screen and (max-width: 380px) {
-  .home-bg {
-    display: flex;
-    justify-content: center;
-    background-image: url("./media/untwined_stretched1.png");
-    background-size: cover;
-    background-position: 60%;
+  // .home-bg {
+  //   display: flex;
+  //   justify-content: center;
+  //   background-image: url("./media/untwined_stretched1.png");
+  //   background-size: cover;
+  //   background-position: 60%;
+  // }
+
+  // .container1 {
+  //   display: flex;
+  //   justify-content: space-between;
+  //   flex-direction: column;
+  //   height: 100vh;
+  //   width: 100%;
+  //   padding-left: 2rem;
+  // }
+  .name {
+    font-size: 2.8rem;
   }
 
-  .container1 {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    height: 100vh;
-    width: 100%;
-    padding-left: 2rem;
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .h3 {
+    font-size: 1rem;
   }
 }
 
 /*HOME: MOBILE Absolute Smallest---------------------------------------------------------------*/
 
 @media only screen and (max-width: 320px) {
-  .home-bg {
-    display: flex;
-    justify-content: center;
-    background-image: url("./media/untwined_stretched1.png");
-    background-size: cover;
-    background-position: 65%;
-  }
+  // .home-bg {
+  //   display: flex;
+  //   justify-content: center;
+  //   background-image: url("./media/untwined_stretched1.png");
+  //   background-size: cover;
+  //   background-position: 65%;
+  // }
 
-  .container1 {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    height: 100vh;
-    width: 100%;
-    padding-left: 1rem;
-  }
+  // .container1 {
+  //   display: flex;
+  //   justify-content: space-between;
+  //   flex-direction: column;
+  //   height: 100vh;
+  //   width: 100%;
+  //   padding-left: 1rem;
+  // }
   .name {
     font-size: 2.8rem;
   }
@@ -1026,6 +1198,7 @@ a:hover {
     background-repeat: no-repeat;
     background-position: center;
     background-image: url("./media/headshot_square.jpg");
+    z-index: 5;
   }
 
 }
@@ -1070,6 +1243,7 @@ a:hover {
     background-repeat: no-repeat;
     background-position: center;
     background-image: url("./media/headshot_square.jpg");
+    z-index: 5
   }
 
   .about-me-text {
@@ -1123,6 +1297,7 @@ a:hover {
     background-repeat: no-repeat;
     background-position: center;
     background-image: url("./media/headshot_square.jpg");
+    z-index: 5
   }
 
   .about-me-text {
@@ -1151,6 +1326,7 @@ a:hover {
   background-repeat: no-repeat;
   background-position: center;
   background-image: url("./media/headshot_square.jpg");
+  z-index: 5
 }
 }
 
@@ -1307,10 +1483,15 @@ a:hover {
   //   display: none;
   // }
 
+
+
   .full-screen {
     display: none;
   }
 
+  .particle-container{
+    display: flex; 
+  }
   .projects-flex {
     display: content;
     display: flex;
@@ -1351,6 +1532,7 @@ a:hover {
     padding: 2rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    z-index: 5;
   }
 
   .horizontal-column{
@@ -1517,6 +1699,8 @@ a:hover {
     padding: 2rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    z-index: 5;
+
   }
 
   // .project-image{

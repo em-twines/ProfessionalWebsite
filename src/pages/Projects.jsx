@@ -2,7 +2,29 @@ import React from "react";
 
 export default function Projects() {
   return (
-    <div>
+    <div >
+      <div className="particle"></div>
+      <div className="particle"></div>
+      <div className="particle"></div>
+
+
+      <div className="particle"></div>
+      <div className="particle"></div>
+      <div className="particle"></div>
+      <div className="particle"></div>
+      <div className="particle"></div>
+      <div className="particle"></div>
+      <div className="particle"></div>
+      <div className="particle"></div>
+      <div className="particle"></div>
+      <div className="particle"></div>
+      <div className="particle"></div>
+      <div className="particle"></div>
+      <div className="particle"></div>
+      <div className="particle"></div>
+
+      <div className="particle"></div>
+      <div className="particle"></div>
       {/* <div className="full-screen">
         <div className="section-title ">Projects</div>
         <div className="project-page-description">

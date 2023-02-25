@@ -54,8 +54,8 @@ export default function About() {
             web content. By the day of the performance, lookingGlass was live,
             and a new door for me was opened.
             <hr></hr>
-            <br></br>In October I took the next step, and enrolled in an
-            intensive Full-Stack boot-camp. As a graduate, I and am now looking
+            <br></br>In October I took the next step and enrolled in an
+            intensive Full-Stack boot-camp. As a graduate, I am now looking
             for opportunities that will help me grow as a developer. I love
             working in React and everything about sending data around the
             frontend and crafting the UI, but I also really enjoy sculpting the

@@ -21,13 +21,12 @@ export default function About() {
             About Me
           </h2>
           <br></br>
-          <hr></hr> <div className="about-me-image"> </div> <br></br>
-          <hr></hr>
+          <hr></hr> 
+          <div className="about-me-image"> </div> <br></br>
           <hr></hr>
           <div className="tag-line">
             A software engineer by way of performance art, I started learning by
             teaching myself C# and Unity during lockdown.
-            <br></br>
             <br></br>
             Three months later, lookingGlass was live, and I had discovered a
             new passion.

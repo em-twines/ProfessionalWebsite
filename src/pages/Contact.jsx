@@ -79,7 +79,7 @@ export default function Contact() {
           <label>message:</label>
           <MDBTextArea
             type="textarea"
-            className="form-control"
+            className="form-control message"
             rows="4"
             name="message"
             required

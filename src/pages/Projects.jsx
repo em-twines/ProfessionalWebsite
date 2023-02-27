@@ -42,7 +42,7 @@ export default function Projects() {
           <div className="p3-content">
             <div className="project-title">Vidio</div>
             <div className="text-muted subtitle">
-              A Music Streaming Site Utilizing Youtube's API
+              A Music Streaming Site Utilizing YouTube's API
             </div>
           </div>
         </div>
@@ -90,7 +90,7 @@ export default function Projects() {
                     <ul className="ul-projects">
                       <li className="list">HTML</li>
                       <li className="list">CSS</li>
-                      <li className="list">Javascript</li>
+                      <li className="list">JavaScript</li>
                       <li className="list">Python</li>
                     </ul>
                   </div>
@@ -105,7 +105,7 @@ export default function Projects() {
 
                     <li className="list">HTML</li>
                     <li className="list">CSS</li>
-                    <li className="list">Javascript</li>
+                    <li className="list">JavaScript</li>
                     <li className="list">Python</li>
                   </ul>
                 </div>{" "}
@@ -204,7 +204,7 @@ export default function Projects() {
                 <ul className="ul-projects">
                   <li className="list">HTML</li>
                   <li className="list">CSS</li>
-                  <li className="list">Javascript</li>
+                  <li className="list">JavaScript</li>
                 </ul>
               </div>
             </div>
@@ -217,7 +217,7 @@ export default function Projects() {
 
                 <li className="list">HTML</li>
                 <li className="list">CSS</li>
-                <li className="list">Javascript</li>
+                <li className="list">JavaScript</li>
               </ul>
             </div>
           </div>
@@ -286,13 +286,13 @@ export default function Projects() {
         <div className="project">
           <div className="project-title">Vid.io</div>
           <div className="text-muted subtitle">
-            A Music Streaming Site Utilizing Youtube's API
+            A Music Streaming Site Utilizing YouTube's API
           </div>
           <div className="horizontal-column">
             <a href="https://github.com/em-twines/YoutubeClone">
               <div
                 className="img img3"
-                alt="A VideoPlayer app using Youtube's API"
+                alt="A VideoPlayer app using YouTube's API"
               ></div>
             </a>
             <div className="column-container">
@@ -308,7 +308,7 @@ export default function Projects() {
                 <ul className="ul-projects">
                   <li className="list">HTML</li>
                   <li className="list">CSS</li>
-                  <li className="list">Javascript</li>
+                  <li className="list">JavaScript</li>
                   <li className="list">Python</li>
                 </ul>
               </div>
@@ -321,7 +321,7 @@ export default function Projects() {
                 <li className="list">YouTube API</li>
                 <li className="list">HTML</li>
                 <li className="list">CSS</li>
-                <li className="list">Javascript</li>
+                <li className="list">JavaScript</li>
                 <li className="list">Python</li>
               </ul>
             </div>
@@ -409,7 +409,7 @@ export default function Projects() {
                 <ul className="ul-projects">
                   <li className="list">HTML</li>
                   <li className="list">CSS</li>
-                  <li className="list">Javascript</li>
+                  <li className="list">JavaScript</li>
                 </ul>
               </div>
             </div>
@@ -420,7 +420,7 @@ export default function Projects() {
                 <li className="list">Python</li>
                 <li className="list">HTML</li>
                 <li className="list">CSS</li>
-                <li className="list">Javascript</li>
+                <li className="list">JavaScript</li>
               </ul>
             </div>
           </div>

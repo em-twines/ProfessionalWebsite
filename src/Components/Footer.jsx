@@ -7,6 +7,7 @@ export default function Footer() {
       <div id="footer">
         <div className="footer-flex">
           <a href="https://github.com/em-twines" className ='icon'></a>
+          <a href="https://linkedin.com/in/em-twines/" className ='linkedin'></a>
         </div>
       </div>
       <div id = 'hide-footer'></div>

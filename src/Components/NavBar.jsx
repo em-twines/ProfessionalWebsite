@@ -48,6 +48,9 @@ export default function NavBar() {
           <li >
             <a href="https://github.com/em-twines" className ='github-icon'></a>
           </li>
+          <li >
+            <a href="https://linkedin.com/in/em-twines/" className ='linkedin-icon'></a>
+          </li>
         </div>
       </ul>
 

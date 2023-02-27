@@ -447,36 +447,48 @@ a:hover {
     background-repeat: no-repeat;
     cursor: pointer;
     font-size: 1.4rem;
-    padding-left: 4rem;
-    padding-right: 4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-right: 4rem;
+  }
+  .linkedin-icon {
+    background-image: url("./media/linkedin.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-size: 1.4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: 4rem;
+    margin-right: 1rem;
   }
 
   .brand {
     cursor: pointer;
     font-size: 1.4rem;
-    padding-left: 4rem;
-    padding-right: 4rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
   }
 
   .projects-nav-link {
     cursor: pointer;
     font-size: 1.4rem;
-    padding-left: 4rem;
-    padding-right: 4rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
   }
 
   .about {
     cursor: pointer;
     font-size: 1.4rem;
-    padding-left: 4rem;
-    padding-right: 4rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
   }
 
   .contact-nav-link {
     cursor: pointer;
     font-size: 1.4rem;
-    padding-left: 4rem;
-    padding-right: 8rem;
+    margin-left: 4rem;
+    margin-right: 8rem;
   }
  
 }
@@ -521,8 +533,8 @@ a:hover {
   .brand {
     cursor: pointer;
     font-size: 1rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
 
   .github-icon {
@@ -531,29 +543,39 @@ a:hover {
     background-repeat: no-repeat;
     cursor: pointer;
     font-size: 1rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 1rem;
+    margin-right: 2rem;
+    padding-right: 1rem;
   }
-
+  .linkedin-icon {
+    background-image: url("./media/linkedin.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-left: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
   .projects-nav-link {
     cursor: pointer;
     font-size: 1rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
 
   .about {
     cursor: pointer;
     font-size: 1rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
 
   .contact-nav-link {
     cursor: pointer;
     font-size: 1rem;
-    padding-right: 4rem;
-    padding-left: 2rem;
+    margin-right: 4rem;
+    margin-left: 2rem;
   }
 }
 
@@ -595,30 +617,53 @@ a:hover {
   .brand {
     cursor: pointer;
     font-size: 1rem;
-    padding-left: 2rem;
-    padding-right: 1rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
   }
 
   .projects-nav-link {
     cursor: pointer;
     font-size: 1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 
   .about {
     cursor: pointer;
     font-size: 1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 
   .contact-nav-link {
     cursor: pointer;
     font-size: 1rem;
-    padding-right: 2rem;
-    padding-left: 1rem;
+    margin-right: 2rem;
+    margin-left: 1rem;
   }
+
+  .github-icon {
+    background-image: url("./media/github_white.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-size: 1rem;
+    padding-left: 1rem;
+    // margin-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .linkedin-icon {
+    background-image: url("./media/linkedin.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-size: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 0; 
+  }
+
 
   .drop-down {
     display: none;
@@ -709,7 +754,16 @@ a:hover {
   padding-right: 1rem;
   justify-content: center;
 }
-
+.linkedin {
+  background-image: url("./media/linkedin.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  height: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  justify-content: center;
+}
 }
 /*NAVBAR: MOBILE SMALLEST------------------------------------------------------------------*/
 
@@ -797,6 +851,18 @@ a:hover {
     padding-right: 1rem;
     justify-content: center;
   }
+
+  .linkedin {
+    background-image: url("./media/linkedin.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    height: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    justify-content: center;
+  }
+
 
   #hide-footer {
     display: none;

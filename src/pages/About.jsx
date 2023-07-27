@@ -54,9 +54,9 @@ export default function About() {
             and a new door for me was opened.
             <br></br>
             <hr></hr>
-            In October I took the next step and enrolled in an intensive
-            Full-Stack boot-camp. As a graduate, I am now looking for
-            opportunities that will help me grow as a developer. I love working
+            In October of 2022, I took the next step and enrolled in an intensive
+            Full-Stack boot-camp, and in May I started working as a Front End Engineering intern.
+            I am now looking for opportunities that will help me grow as a developer. I love working
             in React and everything about sending data around the frontend and
             crafting the UI, but I also really enjoy sculpting the data from the
             start in Django or Spring. I'm excited for what's next, and can't

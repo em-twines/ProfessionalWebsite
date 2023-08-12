@@ -54,13 +54,7 @@ export default function About() {
             and a new door for me was opened.
             <br></br>
             <hr></hr>
-            In October of 2022, I took the next step and enrolled in an intensive
-            Full-Stack boot-camp, and in May I started working as a Front End Engineering intern.
-            I am now looking for opportunities that will help me grow as a developer. I love working
-            in React and everything about sending data around the frontend and
-            crafting the UI, but I also really enjoy sculpting the data from the
-            start in Django or Spring. I'm excited for what's next, and can't
-            wait to learn more!
+            I am currently working part-time as an Intern with the Frontend team at meQuilibrium, learning best practices for working as part of a team according to the Agile methodology. I love learning from the kind and talented senior devs and making my own contributions to the product, and I am excited to continue growing as a developer!
             <br></br>
             <hr></hr> Thanks for checking out my portfolio, and feel free to
             reach out!

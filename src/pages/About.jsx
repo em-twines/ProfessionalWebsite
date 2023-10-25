@@ -33,31 +33,20 @@ export default function About() {
           </div>
           <p className="about-me-text">
             <hr></hr>
+            Hi, I'm Emily. I'm a Full-Stack developer with an emphasis on the Front-End, a former middle school teacher, and an indie video game designer. Before I wrote code, I made art -- programming for live interactive performances and making games. I sort of think coding is art too.
+            <br></br>
+            <hr></hr>I started considering moving more into the tech world after finishing my MFA thesis project, lookingGlass, a Unity3d video game, in May of 2020. I had been working for nine months on a live performance, but in March,
+            the world changed. I didn't want to do a staged reading or something pre-recorded that would stream on Zoom, so I decided to translate
+            the show using the vocabulary of video games. I learned how to code in C# and how to use Unity, how to manage a server and how to host web content. By the day of the performance, lookingGlass was live, and a new door for me was opened.
             <br></br>
             <hr></hr>
-            Hi, I'm Emily. I'm a Full-Stack developer, a former middle school
-            teacher, and an indie video game designer. Before I wrote code, I
-            made art -- programming for live interactive performances and making
-            games. I sort of think coding is art too. I love a good puzzle and a
-            detailed error message, and am always excited to see a project
-            through the finish line. I'm enthusiastic and inquisitive, and just
-            generally enjoy doing what I do.
-            <br></br>
-            <hr></hr>I started considering moving more into the tech world after
-            finishing my MFA thesis project, lookingGlass, in May of 2020. I had
-            been working for nine months on a live performance, but in March,
-            the world changed. I didn't want to do a staged reading or something
-            pre-recorded that would stream on Zoom, so I decided to translate
-            the show using the vocabulary of video games. I learned how to code
-            in C# and how to use Unity, how to manage a server and how to host
-            web content. By the day of the performance, lookingGlass was live,
-            and a new door for me was opened.
-            <br></br>
-            <hr></hr>
-            I am currently working part-time as an Intern with the Frontend team at meQuilibrium, learning best practices for working as part of a team according to the Agile methodology. I love learning from the kind and talented senior devs and making my own contributions to the product, and I am excited to continue growing as a developer!
+            Since May, I have been working with the Frontend team at meQuilibrium as an intern, taking Jira tickets and learning best practices for working as part of a team according to the Agile methodology, how to address accessibility concerns, and how to write concise, effective code for React. 
             <br></br>
             <hr></hr> Thanks for checking out my portfolio, and feel free to
             reach out!
+            <br></br>
+            <hr></hr>
+            React, Git, GitHub, Visual Studio Code, HTML, CSS, JavaScript, Postman, Python, Django REST Framework, C#, MySQL, Unity Game Engine, WinSCP, MaxMSP, Web Services & REST API, Adobe Creative Cloud Suite
           </p>
         </div>
       </div>

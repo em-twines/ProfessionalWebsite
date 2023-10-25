@@ -170,8 +170,8 @@ export default function Projects() {
                 </div>
               </div>{" "}
               <div>
-                <a href="https://www.playlookingglass.com/">
-                  <button className="button-51 smaller">Play Now on Desktop!</button>
+                <a href="https://youtu.be/IYF5CmvJnog?si=j1X11bJ-Oe5wjM7U">
+                  <button className="button-51 smaller">View Trailer</button>
                 </a>
               </div>
             </div>

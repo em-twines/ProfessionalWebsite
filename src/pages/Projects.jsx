@@ -70,7 +70,7 @@ export default function Projects() {
           <div className="horizontal-column">
             <a href="https://github.com/em-twines/same-page-time-tracker">
               <div
-                className="img img1"
+                className="img img1 img-mobile"
                 alt="Manage Employees Table in Same Page Time Tracker"
               ></div>
             </a>
@@ -132,7 +132,7 @@ export default function Projects() {
           </div>
           <div className="horizontal-column">
             <div
-              className=" img5"
+              className="img-larger-atypical img5 img-mobile"
               alt="Avatar standing in front of a video 'projection'"
             ></div>
             <div className="include-button">
@@ -181,13 +181,13 @@ export default function Projects() {
         <hr></hr>
         <div className="project">
           <div className="project-title">The Gaming Codex</div>
-          <div className="text-muted subtitle ">
+          <div className="text-muted subtitle">
             Visualizations of a Game-based Dataset
           </div>
           <div className="horizontal-column">
             <a href="https://github.com/GriffithT16/VideoGame_frontend">
               <div
-                className="img img2"
+                className="img img2 img-mobile"
                 alt="A data visualization project using Nintendo API"
               ></div>
             </a>
@@ -235,7 +235,7 @@ export default function Projects() {
           </div>
           <div className="horizontal-column">
               <div
-                className="img img6"
+                className="img-larger-atypical img6 img-mobile"
                 alt="Delayed and Ovelayed Video of a Woman Dancing"
               ></div>
             <div className="include-button">
@@ -291,7 +291,7 @@ export default function Projects() {
           <div className="horizontal-column">
             <a href="https://github.com/em-twines/YoutubeClone">
               <div
-                className="img img3"
+                className="img img3 img-mobile"
                 alt="A VideoPlayer app using YouTube's API"
               ></div>
             </a>
@@ -341,7 +341,7 @@ export default function Projects() {
           </div>
           <div className="horizontal-column">
               <div
-                className="img img7"
+                className="img-larger-atypical img7 img-mobile"
                 alt="A man stands in front of a wall of digital noise"
               ></div>
             <div className="include-button">
@@ -393,7 +393,7 @@ export default function Projects() {
           <div className="horizontal-column">
             <a href="https://github.com/em-twines/flashcards">
               <div
-                className="img img4"
+                className="img img4 img-mobile"
                 alt="A customizable flashcards app"
               ></div>
             </a>

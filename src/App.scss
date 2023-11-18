@@ -1644,67 +1644,41 @@ a:hover {
     justify-content: center;
   }
 
+  .img-larger-atypical {
+    display: flex;
+    width: 30vw;
+    height: 20vw;
+    margin: 2rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 0.7rem;
+    text-align: center;
+    justify-content: center;
+  }
+
   .img1{
     background-image: url("./media/login2.png");
-
   }
   .img2 {
     background-image: url("./media/dataVis1.png");
-
   }
   .img3 {
     background-image: url("./media/youtube1.png");
-
   }
   .img4 {
     background-image: url("./media/flashcards.png");
-
   }
   .img5 {
-    display: flex;
-    width: 30vw;
-    height: 20vw;
-    margin: 2rem;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    font-size: 0.7rem;
-    text-align: center;
-    justify-content: center;
     background-image: url("./media/lookingGlass.jpg");
-
   }
   .img6 {
-    display: flex;
-    width: 30vw;
-    height: 20vw;
-    margin: 2rem;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    font-size: 0.7rem;
-    text-align: center;
-    justify-content: center;
     background-image: url("./media/weeksvilleInstallation.jpg");
-
   }
   .img7 {
-    display: flex;
-    width: 30vw;
-    height: 20vw;
-    margin: 2rem;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    font-size: 0.7rem;
-    text-align: center;
-    justify-content: center;
     background-image: url("./media/untwinedPerformance.jpg");
-
   }
 
-
-  
   .column-container {
     display: flex;
     justify-content: center;
@@ -1792,9 +1766,7 @@ a:hover {
   //   word-wrap: break-word;
 
   // }
-
-  .img1 {
-    background-image: url("./media/table.png");
+  .img-mobile {
     display: flex;
     margin: auto;
     height: 25vw;
@@ -1805,84 +1777,28 @@ a:hover {
     text-align: center;
     justify-content: center;
     word-wrap: break-word;
+  }
+
+  .img1{
+    background-image: url("./media/login2.png");
   }
   .img2 {
     background-image: url("./media/dataVis1.png");
-    display: flex;
-    margin: auto;
-    height: 25vw;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    font-size: 0.7rem;
-    text-align: center;
-    justify-content: center;
-    word-wrap: break-word;
   }
   .img3 {
     background-image: url("./media/youtube1.png");
-    display: flex;
-    margin: auto;
-    height: 25vw;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    font-size: 0.7rem;
-    text-align: center;
-    justify-content: center;
-    word-wrap: break-word;
   }
   .img4 {
     background-image: url("./media/flashcards.png");
-    display: flex;
-    margin: auto;
-    height: 25vw;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    font-size: 0.7rem;
-    text-align: center;
-    justify-content: center;
-    word-wrap: break-word;
   }
   .img5 {
     background-image: url("./media/lookingGlass.jpg");
-    display: flex;
-    margin: auto;
-    height: 25vw;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    font-size: 0.7rem;
-    text-align: center;
-    justify-content: center;
-    word-wrap: break-word;
   }
   .img6 {
     background-image: url("./media/weeksvilleInstallation.jpg");
-    display: flex;
-    margin: auto;
-    height: 25vw;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    font-size: 0.7rem;
-    text-align: center;
-    justify-content: center;
-    word-wrap: break-word;
   }
   .img7 {
     background-image: url("./media/untwinedPerformance.jpg");
-    display: flex;
-    margin: auto;
-    height: 25vw;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    font-size: 0.7rem;
-    text-align: center;
-    justify-content: center;
-    word-wrap: break-word;
   }
 
   .column-container {
@@ -1965,98 +1881,6 @@ a:hover {
   //   justify-content: center;
   //   word-wrap: break-word;
   // }
-
-  .img1 {
-    background-image: url("./media/table.png");
-    display: flex;
-    margin: auto;
-    height: 25vw;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    font-size: 0.7rem;
-    text-align: center;
-    justify-content: center;
-    word-wrap: break-word;
-  }
-  .img2 {
-    background-image: url("./media/dataVis1.png");
-    display: flex;
-    margin: auto;
-    height: 25vw;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    font-size: 0.7rem;
-    text-align: center;
-    justify-content: center;
-    word-wrap: break-word;
-  }
-  .img3 {
-    background-image: url("./media/youtube1.png");
-    display: flex;
-    margin: auto;
-    height: 25vw;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    font-size: 0.7rem;
-    text-align: center;
-    justify-content: center;
-    word-wrap: break-word;
-  }
-  .img4 {
-    background-image: url("./media/flashcards.png");
-    display: flex;
-    margin: auto;
-    height: 25vw;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    font-size: 0.7rem;
-    text-align: center;
-    justify-content: center;
-    word-wrap: break-word;
-  }
-  .img5 {
-    background-image: url("./media/lookingGlass.jpg");
-    display: flex;
-    margin: auto;
-    height: 25vw;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    font-size: 0.7rem;
-    text-align: center;
-    justify-content: center;
-    word-wrap: break-word;
-  }
-  .img6 {
-    background-image: url("./media/weeksvilleInstallation.jpg");
-    display: flex;
-    margin: auto;
-    height: 25vw;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    font-size: 0.7rem;
-    text-align: center;
-    justify-content: center;
-    word-wrap: break-word;
-  }
-  .img7 {
-    background-image: url("./media/untwinedPerformance.jpg");
-    display: flex;
-    margin: auto;
-    height: 25vw;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    font-size: 0.7rem;
-    text-align: center;
-    justify-content: center;
-    word-wrap: break-word;
-  }
 
   .column-container {
     display: flex;

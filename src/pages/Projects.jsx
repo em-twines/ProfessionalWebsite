@@ -18,51 +18,10 @@ export default function Projects() {
 
       <div className="projects-flex">
         <div className="section-title ">Projects</div>
-
-        <div className="project">
-          <div className="project-title">Tone To Tint</div>
-          <div className="text-muted subtitle">
-            An AI-driven Mood-to-Color Generator
-          </div>
-          <div className="horizontal-column">
-            <a href="https://tonetotint.netlify.app/">
-              <div
-                className="img8"
-                alt="A phrase input bar suspended below a colored square with the text Tone To Tint above. Suggested text reads Raindrops on Roses"
-              ></div>
-            </a>
-            <div className="include-button">
-              <div className="column-container">
-                <div className="column-1">
-                  <ul className="ul-projects">
-                    <li className="list">React</li>
-                    <li className="list">TypeScript</li>
-                    <li className="list">Tailwind</li>
-                    <li className="list">OpenAI</li>
-                  </ul>
-                </div>
-                <div className="one-column">
-                  <ul className="ul-projects">
-                    <li className="list">React</li>
-                    <li className="list">TypeScript</li>
-                    <li className="list">Tailwind</li>
-                    <li className="list">OpenAI</li>
-                  </ul>
-                </div>{" "}
-              </div>{" "}
-              <div>
-                <a href="https://tonetotint.netlify.app/">
-                  <button className="button-51 smaller">
-                    Visit the webpage!
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-
         <hr></hr>
+
         <div className="project">
+          
           <div className="project-title">
             Same Page <br></br>
             <small className="text-muted">Time Tracker</small>
@@ -117,6 +76,50 @@ export default function Projects() {
                 <a href="https://youtu.be/jSsTco6omeE">
                   <button className="button-51 smaller">
                     See it in action!
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <hr></hr>
+
+        <div className="project">
+          <div className="project-title">Tone To Tint</div>
+          <div className="text-muted subtitle">
+            An AI-driven Mood-to-Color Generator
+          </div>
+          <div className="horizontal-column">
+            <a href="https://tonetotint.netlify.app/">
+              <div
+                className="img8"
+                alt="A phrase input bar suspended below a colored square with the text Tone To Tint above. Suggested text reads Raindrops on Roses"
+              ></div>
+            </a>
+            <div className="include-button">
+              <div className="column-container">
+                <div className="column-1">
+                  <ul className="ul-projects">
+                    <li className="list">React</li>
+                    <li className="list">TypeScript</li>
+                    <li className="list">Tailwind</li>
+                    <li className="list">OpenAI</li>
+                  </ul>
+                </div>
+                <div className="one-column">
+                  <ul className="ul-projects">
+                    <li className="list">React</li>
+                    <li className="list">TypeScript</li>
+                    <li className="list">Tailwind</li>
+                    <li className="list">OpenAI</li>
+                  </ul>
+                </div>{" "}
+              </div>{" "}
+              <div>
+                <a href="https://tonetotint.netlify.app/">
+                  <button className="button-51 smaller">
+                    Visit the webpage!
                   </button>
                 </a>
               </div>

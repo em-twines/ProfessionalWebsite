@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Projects() {
   return (
-    <div >
+    <div>
       <div className="particle"></div>
       <div className="particle"></div>
       <div className="particle"></div>
@@ -15,48 +15,51 @@ export default function Projects() {
       <div className="particle"></div>
       <div className="particle"></div>
       <div className="particle"></div>
-      {/* <div className="full-screen">
-        <div className="section-title ">Projects</div>
-        <div className="project-page-description">
-          A short selection of recent work.
-        </div>
-        <div className = 'display-container'>
-        <div className="project1-container">
-          <div className="box"></div>
-          <div className="box1"></div>
-          <div className="box-content">
-            <div className="project-title">Time Tracker</div>
-            <div className="text-muted subtitle">
-              A PTO and OT Management System
-            </div>
-          </div>
-        </div>
-        </div>
-        <div className="projects-2-3-container">
-          <div className="p2-content">
-            <div className="project-title">The Gaming Codex</div>
-            <div className="text-muted subtitle">
-              Visualizations of a Game-based Dataset
-            </div>
-          </div>
-          <div className="p3-content">
-            <div className="project-title">Vidio</div>
-            <div className="text-muted subtitle">
-              A Music Streaming Site Utilizing YouTube's API
-            </div>
-          </div>
-        </div>
-        <div className="p4-content">
-          <div className="project-title">Memory Cards</div>
-          <div className="text-muted subtitle">A Flashcards App</div>
-        </div>
-      </div> */}
 
       <div className="projects-flex">
         <div className="section-title ">Projects</div>
-        {/* <div className="project-page-description">
-          A short selection of my work.
-        </div> */}
+
+        <div className="project">
+          <div className="project-title">Tone To Tint</div>
+          <div className="text-muted subtitle">
+            An AI-driven Mood-to-Color Generator
+          </div>
+          <div className="horizontal-column">
+            <a href="https://tonetotint.netlify.app/">
+              <div
+                className="img8"
+                alt="A phrase input bar suspended below a colored square with the text Tone To Tint above. Suggested text reads Raindrops on Roses"
+              ></div>
+            </a>
+            <div className="include-button">
+              <div className="column-container">
+                <div className="column-1">
+                  <ul className="ul-projects">
+                    <li className="list">React</li>
+                    <li className="list">TypeScript</li>
+                    <li className="list">Tailwind</li>
+                    <li className="list">OpenAI</li>
+                  </ul>
+                </div>
+                <div className="one-column">
+                  <ul className="ul-projects">
+                    <li className="list">React</li>
+                    <li className="list">TypeScript</li>
+                    <li className="list">Tailwind</li>
+                    <li className="list">OpenAI</li>
+                  </ul>
+                </div>{" "}
+              </div>{" "}
+              <div>
+                <a href="https://tonetotint.netlify.app/">
+                  <button className="button-51 smaller">
+                    Visit the webpage!
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
 
         <hr></hr>
         <div className="project">
@@ -223,8 +226,6 @@ export default function Projects() {
           </div>
         </div>
 
-
-
         <hr></hr>
         <div className="project">
           <div className="project-title">
@@ -234,25 +235,23 @@ export default function Projects() {
             An Interactive Installation for the Weeksville Heritage Center
           </div>
           <div className="horizontal-column">
-              <div
-                className="img-larger-atypical img6 img-mobile"
-                alt="Delayed and Ovelayed Video of a Woman Dancing"
-              ></div>
+            <div
+              className="img-larger-atypical img6 img-mobile"
+              alt="Delayed and Ovelayed Video of a Woman Dancing"
+            ></div>
             <div className="include-button">
               <div>
                 <div className="column-container">
                   <div className="column-1">
                     <ul className="ul-projects">
-                    <li className="list">MaxMSP</li>
-                    <li className="list">Kinect</li>
-                   
+                      <li className="list">MaxMSP</li>
+                      <li className="list">Kinect</li>
                     </ul>
                   </div>
                   <div className="column-1">
                     <ul className="ul-projects">
-                    <li className="list">Adobe Suite</li>
-                    <li className="list">Arduino</li>
-
+                      <li className="list">Adobe Suite</li>
+                      <li className="list">Arduino</li>
                     </ul>
                   </div>
                 </div>
@@ -262,7 +261,6 @@ export default function Projects() {
                     <li className="list">Kinect</li>
                     <li className="list">Adobe Suite</li>
                     <li className="list">Arduino</li>
-
                   </ul>
                 </div>{" "}
               </div>{" "}
@@ -276,11 +274,6 @@ export default function Projects() {
             </div>
           </div>
         </div>
-
-
-
-
-
 
         <hr></hr>
         <div className="project">
@@ -328,9 +321,6 @@ export default function Projects() {
           </div>
         </div>
 
-
-
-
         <hr></hr>
         <div className="project">
           <div className="project-title">
@@ -340,25 +330,23 @@ export default function Projects() {
             An Interactive Performance Studying Loss and Memory
           </div>
           <div className="horizontal-column">
-              <div
-                className="img-larger-atypical img7 img-mobile"
-                alt="A man stands in front of a wall of digital noise"
-              ></div>
+            <div
+              className="img-larger-atypical img7 img-mobile"
+              alt="A man stands in front of a wall of digital noise"
+            ></div>
             <div className="include-button">
               <div>
                 <div className="column-container">
                   <div className="column-1">
                     <ul className="ul-projects">
-                    <li className="list">MaxMSP</li>
-                    <li className="list">Ableton</li>
-                   
+                      <li className="list">MaxMSP</li>
+                      <li className="list">Ableton</li>
                     </ul>
                   </div>
                   <div className="column-1">
                     <ul className="ul-projects">
-                    <li className="list">Adobe Suite</li>
-                    <li className="list">DSLR Live-Streaming</li>
-
+                      <li className="list">Adobe Suite</li>
+                      <li className="list">DSLR Live-Streaming</li>
                     </ul>
                   </div>
                 </div>
@@ -368,7 +356,6 @@ export default function Projects() {
                     <li className="list">Ableton</li>
                     <li className="list">Adobe Suite</li>
                     <li className="list">DSLR Live-Streaming</li>
-
                   </ul>
                 </div>{" "}
               </div>{" "}
@@ -382,9 +369,6 @@ export default function Projects() {
             </div>
           </div>
         </div>
-
-
-
 
         <hr></hr>
         <div className="project">

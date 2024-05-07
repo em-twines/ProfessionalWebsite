@@ -32,21 +32,52 @@ export default function About() {
             new passion.
           </div>
           <p className="about-me-text">
+          <hr></hr>
+            Hi, I'm Emily. I'm a Full-Stack developer with an emphasis on the
+            Front-End, a former middle school teacher, and an indie video game
+            developer. Before I wrote code, I made art -- programming for live
+            interactive performances and making games.
+            <br></br>
+            <hr></hr>I started considering moving more into the tech world after
+            finishing my MFA thesis project, lookingGlass, a Unity3d game, in
+            2020. I had been working for nine months on a live performance, but
+            in March COVID-19 hit, and, the world changed. I didn't want to do a
+            staged reading or something pre-recorded that would stream on Zoom,
+            so I decided to translate the show using the vocabulary of video
+            games. I learned C# and how to use Unity. Three months later, the
+            game was live, and, as I say, I had discovered a new passion. 
+            <br></br>
             <hr></hr>
-            Hi, I'm Emily. I'm a Full-Stack developer with an emphasis on the Front-End, a former middle school teacher, and an indie video game developer. Before I wrote code, I made art -- programming for live interactive performances and making games. I sort of think coding is art too.
-            <br></br>
-            <hr></hr>I started considering moving more into the tech world after finishing my MFA thesis project, lookingGlass, a Unity3d video game, in May of 2020. I had been working for nine months on a live performance, but in March,
-            the world changed. I didn't want to do a staged reading or something pre-recorded that would stream on Zoom, so I decided to translate
-            the show using the vocabulary of video games. I learned how to code in C# and how to use Unity, how to manage a server and how to host web content. By the day of the performance, lookingGlass was live, and a new door for me was opened.
-            <br></br>
-            <hr></hr>
-            Since May, I have been working on the Frontend team at meQuilibrium as an intern, taking Jira tickets and learning best practices for working as part of a team according to the Agile methodology, how to address accessibility concerns, convert pages from Angular, and how to write concise, effective code for React. 
-            <br></br>
-            <hr></hr> Thanks for checking out my portfolio, and feel free to reach out!
+            From May-December of 2023, I worked with the Frontend team at meQuilibrium as an
+            intern, taking Jira tickets and learning best practices for working
+            as part of a team according to the Agile methodology, how to address
+            accessibility concerns, and how to write concise, effective code for
+            React.
             <br></br>
             <hr></hr>
-            React, Git, GitHub, Visual Studio Code, HTML, CSS, JavaScript, Postman, Python, Django REST Framework, C#, MySQL, Unity Game Engine, WinSCP, MaxMSP, Web Services & REST API, Adobe Creative Cloud Suite
-          </p>
+            Subsequently, I have been working as a freelancer. I'm happy to
+            be working with two companies, one as a full-stack developer in
+            EdTech, the other as a frontend dev in Enterprise Resource Planning.
+            I am currently focusing for one on automated test development with
+            Cypress, and for the other on building out a frontend using
+            TypeScript and Tailwind. While I am extremely grateful to have these
+            projects in my life, I still feel I have more to offer. I would love to find a group to
+            work with in this new year where I could work full-time as part of a
+            team, growing and building together.
+            <br></br>
+            <hr></hr>
+            Thanks for taking the time to visit my website, and feel free to
+            reach out!
+            <br></br>
+            <hr></hr>
+            <hr></hr>
+            React, Git, GitHub, Visual Studio Code, HTML, CSS, JavaScript,
+            TypeScript, Postman, Python, Django REST Framework, C#, MySQL,
+            Cypress, Unity Game Engine, WinSCP, MaxMSP, Web Services & REST API,
+            Adobe Creative Cloud Suite
+            <br></br>
+            <hr></hr>
+           </p>
         </div>
       </div>
     </div>

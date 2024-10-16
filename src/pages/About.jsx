@@ -60,10 +60,7 @@ export default function About() {
             EdTech, the other as a frontend dev in Enterprise Resource Planning.
             I am currently focusing for one on automated test development with
             Cypress, and for the other on building out a frontend using
-            TypeScript and Tailwind. While I am extremely grateful to have these
-            projects in my life, I still feel I have more to offer. I would love to find a group to
-            work with in this new year where I could work full-time as part of a
-            team, growing and building together.
+            TypeScript and Tailwind. 
             <br></br>
             <hr></hr>
             Thanks for taking the time to visit my website, and feel free to
